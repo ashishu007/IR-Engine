@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 2 </DOCNO>
+Document 2
+
+#The black dogs sat on the black mat.
+</DOC>

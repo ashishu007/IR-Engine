@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 3 </DOCNO>
+Document 3
+
+#The dog was on the mat.
+</DOC>
+

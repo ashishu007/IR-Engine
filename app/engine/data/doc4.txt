@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 4 </DOCNO>
+Document 4
+
+#the black cat sat with the dogs.
+</DOC>
+
