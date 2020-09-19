@@ -1,4 +1,4 @@
-import sys, pickle
+import pickle
 from app.engine.inv_ind import get_inv_ind
 
 def get_retrieved_docs(q):

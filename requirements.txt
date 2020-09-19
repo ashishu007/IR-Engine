@@ -1,1 +1,6 @@
 flask
+nltk
+os
+collections
+re
+pickle
