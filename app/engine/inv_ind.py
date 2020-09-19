@@ -1,12 +1,12 @@
 # File to create inverted-index
 
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import os, collections, re, pickle
 
-Stopwords = set(stopwords.words('english'))
-sws = list(Stopwords)
-# sws = ["a", "an", "the", "they", "i", "am", "you", "with", "on", "to", "was"]
+# Stopwords = set(stopwords.words('english'))
+# sws = list(Stopwords)
+sws = ["a", "an", "the", "they", "i", "am", "you", "with", "on", "to", "was"]
 sws.append("doc")
 sws.append("docno")
 sws.append("document")
