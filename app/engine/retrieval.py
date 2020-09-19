@@ -14,8 +14,8 @@ def get_retrieved_docs(q):
     # print("different_words", different_words)
 
     # inv_ind, file_content = get_inv_ind()
-    inv_ind = pickle.load(open("./app/engine/pkls/inverted_index.pkl", "rb"))
-    file_content = pickle.load(open("./app/engine/pkls/file_content.pkl", "rb"))
+    inv_ind = pickle.load(open("./engine/pkls/inverted_index.pkl", "rb"))
+    file_content = pickle.load(open("./engine/pkls/file_content.pkl", "rb"))
 
     total_files = len(list(file_content.keys()))
 

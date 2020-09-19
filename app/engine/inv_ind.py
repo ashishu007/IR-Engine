@@ -70,12 +70,12 @@ def get_inv_ind(load_saved=True):
     #     load_saved = False
     # if not load_saved:
     print("loading files and creating index ...")
-    file_to_terms, unique_words, file_content = process_files("./app/engine/data")
+    file_to_terms, unique_words, file_content = process_files("./engine/data")
     print("files loaded, index created, now creating inverted index ...")
     inv_ind = get_ii(file_to_terms, unique_words)
     print("inverted ondex created ...")
-    pickle.dump(inv_ind, open("./app/engine/pkls/inverted_index.pkl", "wb"))
-    pickle.dump(file_content, open("./app/engine/pkls/file_content.pkl", "wb"))
+    pickle.dump(inv_ind, open("./engine/pkls/inverted_index.pkl", "wb"))
+    pickle.dump(file_content, open("./engine/pkls/file_content.pkl", "wb"))
     # else:
     #     print("loading saved inverted_index")
     #     inv_ind = pickle.load(open("./app/engine/pkls/inverted_index.pkl", "rb"))
