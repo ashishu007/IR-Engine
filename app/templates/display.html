@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- <link rel="icon" type="image/png" href="/images/om2.png" sizes="32x32" /> -->
-    <title>A Simple IR Search Engine</title>
+    <head>
+        <!-- <link rel="icon" type="image/png" href="/images/om2.png" sizes="32x32" /> -->
+        <title>A Simple IR Search Engine</title>
 
-    <style>
-      h1 {text-align: center;}
-      h2 {text-align: center;}
-      form {text-align: center;}
-      p {text-align: center;}
-      div {text-align: center;}
-      table {text-align: center;}
-      table,
-      th,
-      td {
-        padding: 10px;
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-      .my-custom-scrollbar {
-        position: relative;
-        height: 400px;
-        /* width: auto; */
-        overflow: auto;
-      }
-      .table-wrapper-scroll-y {
-        display: block;
-      }
-      .center {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
+        <style>
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        form {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        table {text-align: center;}
+        table,
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .my-custom-scrollbar {
+            position: relative;
+            height: 400px;
+            /* width: auto; */
+            overflow: auto;
+        }
+        .table-wrapper-scroll-y {
+            display: block;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        </style>
 
-    <!--JS-->
-    <!-- <script>
-      
-    </script> -->
-  </head>
+        <!--JS-->
+        <!-- <script>
+        
+        </script> -->
+    </head>
 
-  <body>
-  
-    <h1>RGU SoC IR Search-Engine</h1>
-    <table class="center">
-        <tr>
-            <td>
-                <h2>Retrieved Documents</h2>
-            </td>
-            <td>
-                <h2>Document Displayer</h2>
-            </td>
-        </tr>
-    </table>
+    <body>
+    
+        <h1>RGU SoC IR Search-Engine</h1>
+        <h2>Retrieved Documents</h2>
+        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+            <table class="table table-bordered table-striped mb-0 center">
+                <thead>
+                    <tr>
+                        <th scope="col">DocumentID</th>
+                        <th scope="col">Content</th>
+                    </tr>
+                </thead>
+                {% for d in docs %}
+                    {% for key, val in d.items() %}
+                        <tr>
+                            <th scope="row"> {{ key }} </th>
+                            <td> {{ val }} </td>
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+            </table>
+        </div>
 
-    {{ docs }}
+        <!-- {% for d in docs %}
+            {% for k, v in d.items() %}
+                {{ k }}
+                {{ v }}
+            {% endfor %}
+        {% endfor %} -->
 
-  </body>
+    </body>
 </html>

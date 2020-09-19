@@ -1,6 +1,7 @@
 from app import app
 from flask import render_template, request, jsonify
 from app.engine.inv_ind import get_inv_ind
+from app.engine.retrieval import get_retrieved_docs
 
 # Show the input form
 @app.route('/')
@@ -14,5 +15,6 @@ def send_result():
         form_result = request.form
         form_r = form_result.to_dict(flat=False)
         print(form_r)
-    # docs = retrieved_docs(form_r["query"])
-    return render_template("display.html", docs=form_r["query"])
+    docs = get_retrieved_docs(form_r["query"][0])
+    print(docs)
+    return render_template("display.html", docs=docs)

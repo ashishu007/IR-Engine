@@ -13,6 +13,9 @@ sws.append("document")
 Stopwords = set(sws)
 
 def process_files(file_dir):
+    """
+    process the files and create file-to-term dictionary
+    """
     file_to_terms = {}
     unique_words = []
     file_content = {}
@@ -35,6 +38,9 @@ def process_files(file_dir):
     return file_to_terms, unique_words, file_content
 
 def get_ii(ftt, uw):
+    """
+    get the inverted index
+    """
     ii = {}
     for i, word in enumerate(uw):
         ii[word] = {"df": 0, "pos": []}
