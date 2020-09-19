@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 460 </DOCNO>
+A Document Retrieval Model Based on Term Frequency Ranks
+
+# This paper introduces a new full-text document retrieval model that is based on comparing oc-currence frequently rank numbers of terms in queries and documents. More precisely, to compute the similarity between a query and a document, this new model first ranks the terms in the query and in the document on decreasing occurrence frequency. Next, for each term, it computes a local similarity between the query and the document, by calculating a weighted difference between the term's rank number in the query and its rank number in the document. Finally, it collects all those local similarities and unifies them into one global similarity between the query and the document. In this paper we also demonstrate that the effectiveness of this new full-text document retrieval model is comparable with that of the standard vector-space retrieval model.
+
+</DOC>

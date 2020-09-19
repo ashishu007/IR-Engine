@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 348 </DOCNO>
+Combining Model-Oriented and Description-Oriented Approaches for Probabilistic Indexing
+
+#We distinguish model-oriented and description-oriented approaches in probabilistic information retrieval. The former refer to certain representations of documents and queries and use additional independence assumptions, whereas the latter map documents and queries onto feature vectors which form the input to certain classification procedures or regression methods. Description-oriented approaches are more flexible with respect to the underlying representations, but the definition of the feature vector is a heuristic step. In this paper, we combine a probabilistic model for the Darmstadt Indexing Approach with logistic regression. Here the probabilistic model forms a guideline for the definition of the feature vector. Experiments with the purely theoretical approach and with several heuristic variations show that heuristic assumptions may yield significant improvements.
+
+</DOC>

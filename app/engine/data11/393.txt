@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 393 </DOCNO>
+A System for Retrieving Speech Documents
+
+# An information retrieval model is presented for the re-trieval of speech documents, i.e. audio recordings containing speech. The indexing vocabulary consists of in-dexing features that have the following characteristics. First, they are easy to recognize by speech recognition methods. Second, the number of different indexing fea-tures is small such that a reasonable amount of training data is sufficient to train the hidden Markov models that are used by the speech recognition process. Third, the retrieval method based on such indexing features achieves an acceptable retrieval effectiveness as shown by experiments on text collections. Fourth, these index-ing features cannot only be identified in speech documents but also in text documents. From the last characteristic follows that speech documents and text doc-uments can be retrieved simultaneously. Analogously, the queries may contain either speech or text. Thus, we have a simple multimedia retrieval model where two different medias are indexed coherently. We also describe a prototype retrieval system under development. 
+
+</DOC>

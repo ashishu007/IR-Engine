@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 475 </DOCNO>
+Effective Retrieval of Structured Documents
+
+#Information systems usually retrieve whole documents as answers to queries. However, it may in some circumstances be more appropriate to retrieve parts of documents. We consider formulas for retrieving whole documents and parts of documents flom a large structured document collection. We consider what information is needed to retrieve effectively and show that knowledge of the structure of documents can lead to improved retrieval performance. 
+
+</DOC>

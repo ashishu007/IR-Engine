@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 473 </DOCNO>
+The Effect of Adding Relevance Information in a Relevance Feedback Environment
+
+#The effects of adding information from relevant documents are examined in the TREC routing environment. A modified Rocchio relevance feedback approach is used, with a varying number of relevant documents retrieved by an initial SMART search, and a varying number of terms from those relevant documents used to expand the initial query. Recall-precision evaluation reveals that as the amount of expansion of the query due to adding terms from relevant documents increases, so does the effectiveness. There appears to be a linear relationship between the log of the number of terms added and the recall-precision effectiveness. There also appears to be a linear relationship between the log of the number of known relevant documents and the recall-precision effectiveness. 
+
+</DOC>

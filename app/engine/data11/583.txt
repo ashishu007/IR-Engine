@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 583 </DOCNO>
+Effectiveness of a Graphical Display of Retrieval Results
+
+# We present the design of a visualization tool that graphically displays the strength of query concepts in the retrieved documents. Graphically displaying document surrogate information enables set-at-a-time perusal of documents, rather than document-at-a-time perusal of textual displays. By providing additional relevance information about the retrieved documents, the tool aids the user in accurately identifying relevant documents. Results of an experiment evaluating the tool shows that when users have the tool they are able to identify relevant documents in a shorter period of time than without the tool, and with increased accuracy. We have evidence to believe that appropriately designed graph-ical displays can enable users to better interact with the system. 
+
+</DOC>

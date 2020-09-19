@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 568 </DOCNO>
+QUILT: Implementing a Large-scale Cross-language Text Retrieval System
+
+#QUILT (Query User Interface with Light Translations) is a prototype implementation of a complete cross-language text retrieval system that takes English queries and produces English gloss translations of Spanish documents. The system indexes the Spanish documents in Spanish, but converts the English query into a Spanish equivalent set through a novel combination of lexical methods and parallel-corpus disambiguation. Similar methods are applied to the returned document to produce a simple translation that can be examined by non-Spanish speakers to gauge the relevance of the document to the original English query. The system integrates tradi tional, glossary-based machine translation technology with information retrieval approaches and demonstrates that rela tively simple term substitution and disambiguation approaches can be viable for cross-language text retrieval. 
+
+</DOC>

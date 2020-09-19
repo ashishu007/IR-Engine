@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 451 </DOCNO>
+Perceptual Speed, Learning and Information Retrieval Performance
+
+# Although the cognitive ability "perceptual speed" is known to influence search performance by end-users, previous research has not established the mechanism by which this influence occured. Results from educational psychology suggest that learning that occurs during searching is likely to be influenced by perceptual speed. An experiment was designed to test how this cognitive ability would interact with a system feature designed to enhance learning of search vocabulary, specifically, presenting subject descriptors as the first element in the display of a reference. Results showed significant interactions between perceptual speed and the order of presentation of data elements in predicting both vocabulary learning and search performancce. These results indicate that searchers with high levels of perceptual speed will learn additional search vocabulary, and use that vocabulary to complete higher quality searches, when they used a system designed to optimise scanning of subject descriptors. This outcome supports the idea that cognitive abilities influence information system usability, and that usability is determined by interactions between characteristics of users and system features. The findings also suggest that system features that enhance the learning of search vocabulary, such as query expansion mechanisms, can have a significant positive effect on the quality of end-user sarching.
+
+</DOC>

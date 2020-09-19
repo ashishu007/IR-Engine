@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 356 </DOCNO>
+To See, or Not to See: Is That the Query
+
+#Traditional information retrieval systems, in the guise of presenting the most relevant information to the searcher, really puts blinders on him. They persent certain information to the searcher, but strongly inhibit him from seeing other information, or even knowing of its existance. In this paper we present an arguement for a new retrieval paradigm, one that focuses on the organised display of all documents, rather than on the linear display of just the "best". 
+</DOC>

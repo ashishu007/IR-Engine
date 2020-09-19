@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 345 </DOCNO>
+A Complete Model for Information Retrieval Systems
+
+#The purpose of a formal system model is to describe the common features of a set of systems which have been developed for similar problems. The model will explain the structure and processes of these systems, and clarify their general, as opposed to specific, characteristics.
+The components of a model must include the kinds of entities, relationships and transformations or operations which form a part of the systems which it I intended to describe. A complete model will contain a representation of all components in any system of the kind referenced by the model. In this paper, models of information retrieval will be presented. By an information retrieval system is meant the physical and logical system which is used to provide information in response to user queries. The model does not include the cognitive aspects of the process, such as query negotiation or output evaluation. 
+
+</DOC>

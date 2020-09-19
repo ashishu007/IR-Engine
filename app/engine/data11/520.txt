@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 520 </DOCNO>
+Optimization of Relevance Feedback Weights
+
+#Methods for learning weights of terms using relevance information from a learning set of documents have been studied for decades in information retrieval research. The approach used here, Dynamic feedback Optimisation, starts with a good weighting scheme based upon Roccio feedback and improves those weights in a dynamic fashion by testing possible changes of query weights on the learning set documents. The resulting optimised performs 10-15% better than the original when evaluated on a test set. We discuss the constant tension between describing what a relevant document should contain and describing what the known relevant documents do contain.
+
+</DOC>

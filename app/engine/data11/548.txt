@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 548 </DOCNO>
+An Application of Plausible Reasoning to Information Retrieval
+
+#This work explores the use of plausible inferences as a means of retrieving relevant documents. Collins and Michalski's theory of plausible reasoning has been modified to accomodate information retrieval. Methods are proposed to represent document contents by logical terms and statements, and queries by incomplete logical statements. Extensions to plausible inferences are discussed. 
+Two versions of the extended plausible reasoning system are implemented, one using dominance weights (described in paper) and the other using tf.idf (Term frequency Inverse Document Frequency) weights. Experiments were conducted using the titles and abstracts of the CACM collection and it was found that both versions of the extended plausible reasoning system were better than the vector space model and the system using dominance weights performed better than the system with tf.idf weights.
+
+</DOC>

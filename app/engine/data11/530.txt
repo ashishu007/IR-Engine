@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 530 </DOCNO>
+Evaluation of a Tool for Visualization of Information Retrieval Results
+
+# We report on the design and evaluation of a visualization tool for Information Retrieval (IR) systems that aims to help the end user in the following respects: As an indicator of document relevance, the tool graphically provides specific query related information about individual documents . As a diagnosis tool, it graphically provides aggregate in-formation about the query results that could help in identifying how the different query terms influence the retrieval and ranking of documents. Two different experiments using TREC-4 data were conducted to evaluate the effectiveness of tlus tool. Results, while mixed, indicate that visualization of this sort may provide useful support for judging the relevance of documents, in particular by enabling users to make more accurate decisions about which documents to inspect in detail. Problems in evaluation of such tools in interactive environments are discussed 
+
+</DOC>

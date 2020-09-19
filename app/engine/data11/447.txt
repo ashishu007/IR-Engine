@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 447 </DOCNO>
+Using IR Techniques for Text Classification in Document Analysis
+
+#This paper presents the INFOCLAS system applying statistical methods of information retrieval for the classification of German business letters into corresponding message types such as order, offer, enclosure, etc. INFOCLAS is a first step towards the understanding of documents proceeding to a classification-driven extraction of information. The system is composed of two main modulex the central indexer (extraction and weighting of indexing terms) and the classifier (classification of business letters into given types). The system employs several knowledge sources including a letter database, word frequency statistics for German, lists of message type specflc words, morphological knowledge as well as the underlying document structure. As output, the system evaluates a set of weighted hypotheses about the type of the actual letter. Classification of documents allow the automatic distribution or archiving of letters and is also an excellent starting point for higher-level document analysis. 
+
+</DOC>

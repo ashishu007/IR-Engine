@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 671 </DOCNO>
+Automatic Generation of Overview Timelines
+
+#We present a statistical model of feature occurrence over time, and develop tests based on classical hypothesis testing for significant term appearance on a given date. Using additional classical hypothesis testing we are able to combine these terms to generate "topics" as defined by the Topic Dectection and Tracking study. The groupings of terms obtained can be used to automatically generate an interective timeline displaying the the major events and topics covered by the corpus. To test the validity of our technique we extracted a large number of these topics from a test corpus and had human evaluators judge how well the selected features captured the gist of the topics, and how they overlapped with a set of known topics from the corpus. The resulting topics were highly rated by evaluators who compared them to known topics.
+
+</DOC>

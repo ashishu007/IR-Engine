@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 472 </DOCNO>
+Improving Text Retrieval for the Routing Problem using Latent Semantic Indexing
+
+#Latent Semantic Indexing (LSI) is a novel approach to information retrieval that attempts to model the underlying structure of term associations by transforming the traditional representation of documents as vectors of weighted term frequencies to a new coordinate space where both documents and terms are represented as linear combinations of underlying semantic factors. In previous research, LSI has produced a small improvement in retrieval performance. In this paper, we apply LSI to the routing task, which operates under the assumption that a sample of relevant and non-relevant documents is available to use in constructing the query. Once again, LSI slightly improves performance. However, when LSI is used is conduction with statistical classification, there is a dramatic improvement in performance. 
+
+</DOC>

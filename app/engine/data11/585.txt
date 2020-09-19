@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 585 </DOCNO>
+A Probabilistic Model for Distributed Information Retrieval
+
+# This paper describes a model for optimum information retrieval over a distributed document collection. The model stems from the Probability Ranking Principle: Having computed individual document rankings correlated to different subcollections, these local rankings are stepwise merged into a final ranking list where the documents are ordered according to their probability of relevance. Here, a full dissemination of subcollection-wide information is not required. The documents of different subcollections are assumed to be indexed using different indexing vocabularies. Moreover, local rankings may be computed by individual probabilistic retrieval methods. The underlying data volume is arbitrarily scalable. A criterion for effectively limiting the ranking process to a subset of subcollections extends the model. 
+
+</DOC>

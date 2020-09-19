@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 781 </DOCNO>
+Improving Stemming for Arabic Information Retrieval: Light Stemming and Co-occurrence Analysis
+
+#Arabic, a highly inflected language, requires good stemming for effective information retrieval, yet no standard approach to stemming has emerged. We developed a light stemmer for Arabic and a statistical stemmer using a co-occurrence approach to refine crude stem classes. We compare the retrieval effectiveness on the TREC 10 data of several different stemmers: no stemming, several versions of light stemming, morphological analysis, "simple" stemming (removal of vowels, to create large stem classes) and statistical stemming based on co-occurrence. The best light stemmer was more effective for cross-language retrieval than a morphological stemmer which tried to find the root for each word. A repartitioning process consisting of vowel removal followed by clustering using co-occurrence analysis produced stem classes which were better than no stemming or very light stemming, but still inferior to good light stemming or morphological analysis. Repartitioning did not improve or degrade the effectiveness of the best light stemmer or morphological analyzer.
+
+</DOC>

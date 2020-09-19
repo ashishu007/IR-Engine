@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 556 </DOCNO>
+Detection of Shifts in User Interests for Personalized Information Filtering
+
+#Several machine learning approaches have been proposed in the literature to automatically learn user interests for information filtering. However, many of them are ill-equipped to deal with changes in user interests that may occur due to changes in the user's personal and professional situations. If undetected over a long time, such changes may cause significant degradation in the filtering performance and user satisfaction during the period of non-detection. In this paper, we present a two-level learning approach to cope with such non-stationary user interests. While the lower level consists of a standard convergence-type machine learning algorithm, the higher level uses Bayesian analysis of the user provided relevance feedback to detect shifts in user interests. Once such a shift is detected, the lower-level learning algorithm is suitably reinitialized to quickly adapt to the new user profile. Experimental results with simulated users are presented to demonstrate the feasibility of the approach. 
+
+</DOC>

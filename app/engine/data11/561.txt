@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 561 </DOCNO>
+Comparing Representations in Chinese Information Retrieval
+
+# Three representation methods are empirically investigated for Chinese information retrieval: l-gram (single character), bigram (two contiguous overlapping characters), and short-word indexing based on a simple segmentation of the text. The retrieval collection is the approximately 170 MB TRBC-5 Chinese corpus of news articles, and 28 queries that are long and rich in wordings. Evaluation shows that l-gram indexing is good but not sufficiently competitive, while bigram indexing works surprisingly well. Bigrarn indexing leads to a large index term space, three times that of short-word indexing, but is as good as short-word indexing in precision, and about 50etter in relevants retrieved. The best average non-interpolated precision is about 0.45, 170etter than 1-gram indexing and quite high for a mainly statistical approach. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 474 </DOCNO>
+Passage-Level Evidence in Document Retrieval
+
+#The increasing lengths of documents in full-text collections encourages renewed interest in the ranking and retrieval of document passages. Past research showed that evidence from passages can improve retrieval results, but it also raised questions about how passages are defined, how they can be ranked efficiently, and what is their proper role in long, structured documents. The paper reports on experiments with passages in INQUERY, a probabilistic information retrieval system. Experiments were conducted with passages based on paragraphs, and with passages based on text windows of various sizes. Experimental results are given for three homogeneous and two heterogeneous document collections, ranging in size from three megabytes to two gigabytes. 
+
+</DOC>

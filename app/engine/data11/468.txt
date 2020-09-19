@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 468 </DOCNO>
+The Formalism of Probability Theory in IR: A Foundation for An Encumbrance
+
+#Probabilistic theories of retrieval bring to bear on the information search problem a high degree of theoretical coherence and deductive power. In principle, this power ought to be an invaluable asset. In practice, it has turned out to be a mixed blessing. The question considered here is whether the trappings of the probabilistic formalism strengthen or encumber IR research on balance. 
+
+</DOC>

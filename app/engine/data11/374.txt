@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 374 </DOCNO>
+A Two-Level Hypertext Retrieval Model for Legal Data
+
+#This paper introduces an associative information retrieval model based on the two-level architecture proposed in [Agosti et al, 1989a] and[Agosti et al, 1990a], and an experimental prototype developed in order to evaluate the model in a personal computng environment. In the first part of the paper, related work and motivations are presented. In the second part, the model entitled EXPLICIT, is introduced. EXPLICIT is based on a two-level architecture which holds the two main parts of the informative resource managed by an informational retrieval tool: the collection of documents and the indexing term structure. The term structure is managed as a schema of concepts which can be used by the final user as a frame of reference in the query formulation process. The model supports the cocurrent use different schemas of concepts to satisfy information needs of different categories of users. In the third part of the paper, the main characteristics of the experimental prototype, named HyperLaw, are presented. 
+
+</DOC>

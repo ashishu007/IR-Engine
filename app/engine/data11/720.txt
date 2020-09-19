@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 720 </DOCNO>
+Iterative residual rescaling  
+
+#We consider the problem of creating document representations in which inter-document similarity measurements correspond to semantic similarity. We first present a novelsubspace-basedframework for formalizing this task. Using this framework, we derive a new analysis ofLatent Semantic Indexing(LSI), showing a precise relationship between its performance and theuniformityof the underlying distribution of documents over topics. This analysis helps explain the improvements gained by Ando's (2000)Iterative Residual Rescaling(ours) algorithm: ours can compensate for distributional non-uniformity. A further benefit of our framework is that it provides a well-motivated, effective method for automatically determining the rescaling factor ours depends on, leading to further improvements. A series of experiments over various settings and with several evaluation metrics validates our claims. 
+ 
+</DOC>

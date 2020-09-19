@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 464 </DOCNO>
+Results of Applying Probabilistic IR to OCR Text
+
+#Character accuracy of optically recognized text is considered a basic measure for evaluating OCR devices. In the broader sense, another fundamental measure of an OCR's goodness is whether its generated text is usable for retrieving information. In this study, we evaluate retrieval effectiveness from OCR text databases using probabilistic IR system. We compare these retrieval results to their manually corrected equivalent. We show there is no statistical difference in precision and recall using graded accuracy levels from three OCR devices. However, characteristics of the OCR data have side effects that could cause unstable results with this IR model. In particular, we found indivdiual queires can be greatlt affected. Knowing the qualities of OCR text, we compensate for them by applying an automatic post-processing system that improves effectiveness.
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 511 </DOCNO>
+Cluster-Based Text Categorization: A Comparison of Category Search Strategies
+
+#Text categorization can be viewed as a processof category search, in which one or more categories for a test document are searched for by using given training documents with known categories. In this paper a cluster-based search with a probabilistic clustering algorithm is proposed and evaluated on two data sets. The efficiency, effectiveness, and noise tolerance of this search strategy were confirmed to be better than those of a full search, a category-based search, and a cluster-based search with nonprobabilistic clustering.
+
+</DOC>

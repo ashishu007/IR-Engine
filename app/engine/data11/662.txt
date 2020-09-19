@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 662 </DOCNO>
+Comparing the Performance of Database Selection Algorithms
+
+#We compare the performance of two database selection algorithms reported in the literature. Their performance is compared using a common testbed designed specifically for database selection techniques. The testbed is a decomposition of the TREC/TIPSTER data into 236 sub collections. The databases from our testbed were ranked using both the gGlOSS and CORI techniques and compared to a baseline derived from TREC relevance judgements. We examined the degree to which CORI and gGlOSS approximate this baseline. Our results confirm our earlier observation that the gGlOSS Ideal(l) ranks do not estimate relevance-based ranks well. We also find that CORI is a uniformly better estimator of relevance-based ranks than gGlOSS for the test environment used in this study. Part of the advantage of the CORI algorithm can be explained by a strong correlation between gGlOSS and a size-based baseline (SBR). We also find that CORI produces consistently accurate rankings on testbeds ranging from 100{921 sites. However for a given level of recall, search report appears to scale linearly with the number of databases.
+
+</DOC>

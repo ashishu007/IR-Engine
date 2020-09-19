@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 367 </DOCNO>
+An Object-Oriented Modelling of the History of Optimal Retrievals
+
+#Learning techniques are used in IR to exploit user feed-back in order that the system can improve its peformance with respect to particular queries. This process involves the construction of an optimal query that best separates the documents known to be relevant from those that are not. Since obtaining relevance judgments and constructing an optimal query involve a great deal of effort, in this paper, we develop a framework for organizing the history of optimal retrievals. The framework involves the identification of a hierarchy of document classes such that the concepts corresponding to higher level classes are more general than those of the lower level classes. The ways in which such a hierarchy may be used to retrieve answers to new queries are outlined. This approach has the advantage that the query specification is concept-based, where as the retrieval mechanism is numerically-oriented involving optimal query vectors. It is shown that the construction of a hierarchy of optimal queries can correspond to an object-oriented modeling of IR objects. Furthermore, the resulting model can be easily implemented using a relational DBMS. 
+
+</DOC>

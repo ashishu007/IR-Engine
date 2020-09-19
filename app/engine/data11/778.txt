@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 778 </DOCNO>
+Methods and Metrics for Cold-Start Recommendations
+
+#We have developed a method for recommending items that combines content and collaborative data under a single probabilistic framework. We benchmark our algorithm against a na``(i)ve Bayes classifier on the (sl cold-start) problem, where we wish to recommend items that no one in the community has yet rated. We systematically explore three testing methodologies using a publicly available data set, and explain how these  methods apply to specific real-world applications. We advocate heuristic recommenders when benchmarking to give competent baseline performance. We introduce a new performance metric, the CROC curve, and demonstrate empirically that the various components of our testing strategy combine to obtain deeper understanding of the performance characteristics of recommender systems. Though the emphasis of our testing is on (sl cold-start) recommending, our methods for recommending and evaluation are general.
+
+</DOC>

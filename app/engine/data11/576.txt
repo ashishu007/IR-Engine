@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 576 </DOCNO>
+Optimal Demand-oriented Topology for Hypertext Systems
+
+#This paper proposes an algorithm to aid in the design of  hypertext systems. A numerical index is presented for rating the organisational efficiency of  hypertexts based on (1) user demand for pages, (2) the relevance of pages to one another, and (3) the probability that users can navigate along hypertext paths without getting lost. Maximising this index under constraints on the number of link is proven NP-complete, and a genetic algorithm is used to search for the optimal link topology. An experiment with computer users provides evidence that a numerical messure of hypertext efficiency might have practical value. 
+
+</DOC>

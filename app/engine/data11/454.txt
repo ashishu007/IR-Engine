@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 454 </DOCNO>
+Polyrepresentation of Information Needs and Semantic Entities: Elements of a Cognitive Theory for Information Retrieval Interaction
+
+# The paper outlines the principles underlying the theory of polyrepresentation applied to the user's cognitive space and the information space of IR systems, set in a cognitive framework. By means of polyrepresentation it is suggested to represent the current user's information need, problem state, and domain work task or intetrst in a structure of casuality as well as to embody semantic full-text entities by means of the principle of 'intentional redundnacy'. In IR systems this principle implies simoultaneosly, to apply different methods of representations and a variety of IR techniques of different cognitive origin to each entity. The objective is to approximate as close as possible text retrieval of information in a cognitive sense.
+
+</DOC>

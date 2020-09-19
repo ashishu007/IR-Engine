@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 762 </DOCNO>
+Unsupervised Document Classification using Sequential Information Maximization
+
+#We present a novel sequential clustering algorithm which is motivated by the Information Bottleneck (IB) method. In contrast to the Agglomerative IB algorithm, the new sequential (sIB) approach is guaranteed to converge to a local maximum of the information with time and space complexity linear in the data size. We apply this algorithm to unsupervised document classification. In all our evaluation on small and medium size corpra, the sIB is found to be consistently superior to all the other clustering methods we examine, typically by a significant margin. Moreover, the sIB results are comparable to those obtained by supervised Naive Bayes classifier. Finaly, we propose a simple procedure for trading clusters recall to gain higher precision, and show how this approach can extract clusters which match almost perfectly the existing topics of the corpus.
+
+</DOC>

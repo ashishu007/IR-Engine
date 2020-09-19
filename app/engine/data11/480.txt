@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 480 </DOCNO>
+Netserf: Using Semantic Knowledge to Find Internet Information Archives
+
+# Haase This paper describes the architecture, implementation and evaluation of NetSerf, a program for finding information archives on the Internet using natural language queries. NetSerf's query processor extracts structured, disambiguated representations from the queries. The query representations are matched to hand-coded representations of the archives using semantic knowledge from WordNet (a semantic thesaurus) and an on-line Webster's dictionary. NetSerf has been tested using a set of questions and answers developed independantly for a game called Internet hunt. The paper presents results comparing the performance of NetSerf and the standard IR system SMART on this set of queries.
+
+</DOC>

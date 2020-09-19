@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 546 </DOCNO>
+On Chinese Text Retrieval
+
+#In previous studies, Chinese text retrieval has often been dealt with on the character basis. This approach is not suited to deal with complex queries. We suggest that Chinese text retrieval should work with words instead of characters. The crucial problem is to segment originally continuous Chinese texts into words. In this paper, we first propose a hybrid segmentation approach which unifies the commonly used approaches. The system SMART is then udapted to index the segmented Chinese texts. Finally, we suggest that Chinese text retrieval should move further to include a thesaurus in order to cope with the rich vocabulary of Chinese. 
+
+</DOC>

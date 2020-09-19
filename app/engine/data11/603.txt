@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 603 </DOCNO>
+Automatic Essay Grading Using Text Categorization Techniques
+
+#Several standard text-categorization techniques were applied to the problem of automated essay grading. Bayesian independence classifiers and k-nearest-neighbor classifiers were trained to assign scores to manually-graded essays. These scores were combined with several other summary text measures using linear regression. The classifiers and regression equations were then applied to a new set of essays. The classifiers worked very well. The agreement between the automated grader and the final manual grade was as good as the agreement between human graders. 
+
+</DOC>

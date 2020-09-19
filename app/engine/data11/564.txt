@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 564 </DOCNO>
+Almost-Constant-Time Clustering of Arbitrary Corpus Subsets
+
+# Methods exist for comtant-time clustering of corpus subsets selected via Scatter/Gather browsing [3]. In this paper we expand on those techniques, giving an algorithm for almost-constant-time clustering of arbitrary corpus subsets. This algorithm is never slower than clustering the document set from scratch, and for medium-sised and large sets it is significantly faster. This algorithm is never slower than clustering the document set from scratch, and for medium-sized and large sets it is significantly faster. This algorithm is useful for clustering arbitary subsets of large corpora - obtained, for instance, by a Boolean search - quickly enough to be useful in an interactive setting.
+
+</DOC>

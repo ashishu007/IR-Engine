@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 503 </DOCNO>
+Improving the Information Search Interface: the case for two search models
+
+#Computerised information spaces evolved using the Boolean logic paradigmfor retrieval of their stored information. While many studies have looked at ways to improve training to enable users to create queries appropriate to their information need, little attention has been paid to users' cognitive models of the information. This research shows that when people can illustrate their queries graphically, they have at least two quite different mental models. These incorporate the information space working with and the particular approach applied to their search. This paper presents the findings to date and indicates the additional avenues which we believe warrant investigation.
+
+</DOC>

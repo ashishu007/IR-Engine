@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 478 </DOCNO>
+Document Filtering for Fast Ranking
+
+#Ranking techniques are effective for finding answers in document collections but the cost of evaluation of ranked queries can be unacceptably high. We pr( ,pose an evaluation technique that reduces both main memory usage and query evaluation time. ba~ ed on early recognition of which documents are likely to be highly ranked. Our experiments show that, for our test data, the proposed technique evaluates queries in 20 % of the time and 2% of the menory taken by the standard inverted file implementation, without degredation in retrieval effectivness.
+
+</DOC>

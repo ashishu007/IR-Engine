@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 435 </DOCNO>
+A Browser for Bibliographic Information Retrieval, Based on an Application of Lattice Theory
+
+# An application of mathematical lattice theory, called relationship lattices, is utilized to attack problems of operational bibliographic information retrieval. The proposed solution offers an interface to the information searcher enabling operation in a world of concepts, authors, and document records and their relationships. This hides the complexities of query language and &tabase structures, and it allows to use a personally preferred terminology and to browse, query and download document records in a convenient way. The main component of the proposed solution is a personal thesaurus built up as a relationship lattice. 
+
+</DOC>

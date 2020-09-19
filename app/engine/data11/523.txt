@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 523 </DOCNO>
+Pivoted Document Length Normalization
+
+# Automatic information retrieval systems have to deal with documents of varying lengths in a text collection. Document length normalization is used to fairly retrieve documents of all lengths. In this study, we observe that a normalization scheme that retrieves documents of all lengths with similar chances as their likelihood of relevance will outperform another scheme which retrieves documents with chances very different from their likelihood of relevance. We show that the retrieval probabilities for a particular normalization method deviate systematically from the relevance probabilities across different collections. We present pivoted normalization, a technique that can be used to modify any normalization function thereby reducing the gap between the relevance and the retrieval probabilities. Training pivoted normalization on one collection, we can successfully use it on other (new) text collections, yielding a robust, collection independent normalization technique. We use the idea of pivoting with the well known cosine normalization function. We point out some shortcomings of the cosine function and present two new normalization functions - pivoted unique normailzation and pivoted byte size normalisation.
+
+</DOC>

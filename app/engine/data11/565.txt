@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 565 </DOCNO>
+Feature Selection, Perceptron Learning, and a Usability Case Study for Text Categorization
+
+# In this paper, we describe an automated learning approach to text categorization based on perception learning and a new feature selection metric, called correlation coefficient. Our approach has been teated on the standard Reuters text categorization collection. Empirical results indicate that our approach outperforms the best published results on this Reuters collection. In particular, our new feature selection method yields considerable improvement. We also investigate the usability of our automated learning approach by actually developing a system that categorizes texts into a tree of categories. We compare tbe accuracy of our learning approach to a rule-based, expert system approach that uses a text categorization shell built by Carnegie Group. Although our automated learning approach still gives a lower accuracy, by appropriately incorporating a set of manually chosen words to use as features, the combined, semi-automated approach yields accuracy close to the rule based approach. 
+
+</DOC>

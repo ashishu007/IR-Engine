@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 508 </DOCNO>
+Evaluating and Optimizing Autonomous Text Classification Systems
+
+#Text retrieval systems typically produce a ranking of documents and let a user decide how far down that ranking to go. In contrast, programs that filter text streams, software that categorizes docu-ments, agents which alert users, and many other IR systems must make decisions without human input or supervision. It is important to define what constitutes good effectiveness for these autonomous systems, tune the systems to achieve the highest possible effectiveness, and estimate how the effectiveness changes as new data is processed. We show how to do this for binary text classification systems, emphasizing that different goals for the system lead to different optimal behaviors. Optimizing and estimating effectiveness is greatly aided if classifiers that explicitly estimate the probability of class membership are used. 
+
+</DOC>

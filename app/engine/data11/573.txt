@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 573 </DOCNO>
+Textual Context Analysis for Information Retrieval
+
+#We describe four applications of QUESCOT, a program which analyses and quantifies textual contexts in documents with reference to the WordNet database, and hence ascertains the dominance of topics in a document. Our analysis is based on previous work in lexiucal cohesion, a feature of texts which contributes to their functioning as a coherent unit. The applications are diverse, but all pertain to information retrieval. Whilst our results suggest that QUESCOT is not well suited to word sense disambiguation and text segmentation, our eexperimental IR system using QUESCOT as an indexing component produces promising results. We also used QUESCOT representations to automatically generate a resource to supplement WordNet, based on collocational relations between concepts in a document collection. We conclude that QUESCOT is suited to applications based on document-level descriptions, where the degree of granularity allows inaccuracies to be smoothed out.
+
+</DOC>

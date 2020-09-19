@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 652 </DOCNO>
+Phrasier: A System for Interactive Document Retrieval Using Keyphrases
+
+#Users information needs are often too complex to be effectively expressed in standard query interfaces to full-text retrieval systems. A typical need is to find documents that are similar to a given source document, yet describing the content of a document in a few terms is a difficult task. We describe Phrasier, an interactive system for browsing, querying and relating documents within a digital library. Phrasier exploits keyphrases that have been automatically extracted from source documents to create links to similar documents and to suggest appropriate query phrases to users. Phrasiers keyphrase-based retrieval engine returns ranked lists of documents that are similar to a given source text. Evaluation indicates that Phrasiers keyphrase-based retrieval performs as well as full-text retrieval when recall and relevance scores assigned by human assessors are considered.
+
+</DOC>

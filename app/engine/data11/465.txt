@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 465 </DOCNO>
+Natural Language vs. Boolean Query Evaluation: A Comparison of Retrieval Performance
+
+#The results of experiments comparing the relative performance of natural language and Boolean query formulations are presented. The experiments show that on average a current generation natural language system provides better retrieval performance than expert searchers using a Boolean retrieval system when searching full-text legal materials. Methodological issues are reviewed and the effect of database size on query formulation strategy is discussed. 
+
+</DOC>

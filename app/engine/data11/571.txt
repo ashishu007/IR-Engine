@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 571 </DOCNO>
+Computationally Tractable Probabilistic Modeling of Boolean Operators
+
+#The inference network model of information retrieval allows for a probabilistic interpretation of Boolean query operators. Prior work has shown, however, that these operators do not perform as well as the pnorrn operators developed in the context of the vector space model. The design of alternative operators in the inference network framework must contend with the issue of computational tractability. We define a flexible class of link matrices that are natural candidates for the implementation of Boolean operators and an 0( n2) algorithm for the computation of probabilities involving link matrices of this class. We present experimental results indicating that Boolean operators implemented in terms of link matrices from this class perform as well as pnorm operators. 
+
+</DOC>

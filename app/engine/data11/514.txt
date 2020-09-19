@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 514 </DOCNO>
+An Image Retrieval Model Based on Classical Logic
+
+#Images are a communication medium, hence objects of a linguistic nature having a form and a content. The form of an image is the image appearance and is understood as depicting a scene, the image content. The relationship between the form of an image and its content is estabilshed through a process of interpretation, capturing the meaning of the image form, or its content, or the relationship between them. Consequently, any general, domain independant image retrieval facility should be based on a model, based on classical logic, is proposed which fulfils this basic requirement.
+
+</DOC>

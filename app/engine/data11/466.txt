@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 466 </DOCNO>
+Inferring Probability of Relevance Using the Method of Logistic Regression
+
+#This research evaluates a model for probabilistic text and document retrieval; the model utilizes the technique of logistic regression to obtain equations which rank documents by probability of relevance as a function of document and query properties. Since the model infers probability of relevance from statistical clues present in the texts of documents and queries, we call it logistic inference. By transforming the distribution of each statistical clue into its standardized distribution (one with mean v = O and standard deviation a = 1), the method allows one to apply logistic coefficients derived from a training collection to other document collections, with little loss of predictive power. The model is applied to three well-known information retrieval test collections, and the results are compared directly to the particular vector space model of retrieval which uses term-frequency/inverse-document-frequency (tfidf) weighting and the cosine similarity measure. In the comparison, the logistic inference method performs significantly better than (in two collections) or equally well as (in the third collection) the tfidf/cosine vector space model. The differences in performances of the two models were subjected to statistical tests to see if the differences are statistically significant or could have occurred by chance. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 547 </DOCNO>
+A Deductive Data Model for Query Expansion
+
+#We present a deductive data model for concept-based query expansion. It is based on three abstraction levels: the conceptual, linguistic and occurrence levels. Concepts and relationships among them are represented at the conceptual level. The expression level represents natural language expressions for concepts. Each expression has one or more matching models at the occurrence level. The models specify the matching of the expression in database indices built in varying ways. The data model supports a concept-based query expansion and formulation tool, the ExpansionTool, for heterogeneous IR system envirom ments, Expansion is controlled by adjustable matching reliability. 
+
+</DOC>

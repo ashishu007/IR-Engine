@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 477 </DOCNO>
+Synthetic Workload Performance Analysis of Incremental Updates
+
+#Declining disk and CPU costs have kindled a renewed interest in efficient document indexing techniques. In this paper, the problem of incremental updates of inverted lists is addressedusing a dual-structure index data structure that dynamically separates long and short inverted lists and optimizes the retrieval, update, and storage of each type of list. The behavior of this index is studied with the use of a synthetically-generated document collection and a simulation model of the algorithm. The index structure is shown to support rapid insertion of documents, fast queries, and to scale well to large document collections and many disks. 
+
+</DOC>

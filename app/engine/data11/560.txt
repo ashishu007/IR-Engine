@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 560 </DOCNO>
+Learning Routing Queries in a Query Zone
+
+#Word usage is domain dependent. A common word in one domain can be quite infrequent in another. In this study we exploit this property of word usage to improve document routing. We show that routing queries (profiles) learned only from the documents in a query domain are better than the routing profiles learned when query domains are not used. We approximate a query domain by a query zone. Experiments show that routing profiles learned from a query zone are 8--12% more effective than the profiles generated when no query zoning is used.
+
+</DOC>

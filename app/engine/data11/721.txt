@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 721 </DOCNO>
+Expressive retrieval from XML documents  
+
+#The emergence of XML as a standard interchange format for structured documents/data has given rise to many XML query language proposals. However, some of these languages do not support information retrieval-style ranked queries based on textual similarity. There have been several extensions to these query languages to support keyword search, but the resulting query languages cannot express queries such as``find books and CDs with similar titles''. Either these extensions use keywords as mere boolean filters, or similarities can be calculated only between data values and constants rather than two data values. We propose ELIXIR, an XML information retrieval that extends the query language XML-QL  with a textual similarity operator. ELIXIR is a general-purpose XML information retrieval language, sufficiently expressive to handle the above query. Our algorithm for answering ELIXIR queries rewrites the original ELIXIR query into a series of XML-QL queries that generate intermediate relational data, and uses relational database techniques to efficiently evaluate the similarity operators on this intermediate data, yielding an XML document with nodes ranked by similarity. Our experiments demonstrate that our prototype scales well with the size of the XML data and complexity of the query. 
+ 
+</DOC>

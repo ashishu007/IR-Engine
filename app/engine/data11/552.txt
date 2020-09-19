@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 552 </DOCNO>
+Method Combination For Document Filtering
+
+# There is strong empirical and theoretic evidence that combination of retrieval methods can improve performance. In this paper, we systematically compare combination strate-gies in the context of document filtering, using queries from the Tipster reference corpus. We find that simple averaging strategies do indeed improve performance, but that direct averaging of probability estimates is not the correet approach. Instead, the probability estimates must be renormalized using logistic regression on the known relevance judgments. We examine more complex combination stratgies but find them less successful due to the high correlations among our filtering methods which are optimized over the same training data and employ similar document representations. 
+
+</DOC>

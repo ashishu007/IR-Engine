@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 470 </DOCNO>
+A System for Discovering Relationships by Feature Extraction from Text Databases
+
+#A method for accessing text-based information using domain-specific features rather than documents alone is presented. The basis of this approach is the ability to automatically extract features from large text databases, and identify statistically significant relationships or associations between those features. The techniques supporting the approach are discussed, and examples from an application using these techniques, named the Associations System, are illustrated using the Wall Street Journal database. In this particular application, the features extracted are company and person names. The series of tests run on the Associations System demonstrate that feature extraction can be quite accurate, and that the relationships generated are reliable. In addition to conventional mea-sures of recall and precision, evaluation measures are currently being studied which will indicate the usefulness of the relationships identified, in various domain-specific contexts. 
+
+</DOC>

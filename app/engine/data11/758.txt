@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 758 </DOCNO>
+Bayesian Online Classifiers for Text Classification and Filtering
+
+#This paper explores the use of Bayesian online classifiers to classify text documents. Empircal results indicate that these methods are comparable with the best text classification systems. Furthermore, the online approach offers the advantage of continuous learning in the batch-adaptive text filtering task.
+
+</DOC>

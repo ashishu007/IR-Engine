@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 751 </DOCNO>
+Title Language Model for Information Retrieval
+
+#In the traditional language modeling approach to information retrieval, a smoothed document language model is first estimated and then applied to predict the query. However, because of the essential difference between a document and a query, it would be more natural to compute the likelihood of the query based on a query language model. In this paper, we propose a new language model, namely title language model for information retrieval, in which, the titles of documents are exploited to estimate a query language model directly. The main idea is to use a statistical translation model learned from the title-document pairs in the collection to bridge the gap between the document language model and the query language model. Two new smoothing methods are proposed to address the data sparseness problem in this context. In the experiments with four different TREC document collections, the title language model for information retrieval with the new smoothing method outperforms both the traditional language model and the vector space model for IR significantly.
+
+</DOC>

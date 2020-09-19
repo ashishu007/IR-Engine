@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 497 </DOCNO>
+Information Processing in the Context of Medical Care
+
+#We report findings from an exploratory study whose overall goal was to design an online document surrogate for journal articles, customized for use in climcal problem solving. We describe two aspects of literature-based medical decision making. First, there are interaction effects among citations in a search output (or among articles in a stack of articles) that affect the physician's  judgement of clinical applicability. Second, physicans select among different information processing strategies when attempting to use literature for finding an answer a clinical question.
+
+</DOC>

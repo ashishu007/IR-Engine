@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 13 </DOCNO>
+Automated monitoring to support the analysis and evaluation of information systems
+
+#This paper is based on, and extracted in part from, a much more expanded and detailed manuscript entitled "Monitoring and Evaluation of On-Line Information System Usage", accepted for publication in Information Processing and Management.
+
+</DOC>

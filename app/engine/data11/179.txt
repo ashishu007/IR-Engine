@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 179 </DOCNO>
+What Makes a Query Temporally Sensitive?
+
+#This work takes an in-depth look at the factors that affect manual classifications of 'temporally sensitive' information needs. We use qualitative and quantitative techniques to analyze 660 topics from the Text Retrieval Conference (TREC) previously used in the experimental evaluation of temporal retrieval models. Regression analysis is used to identify factors in previous manual classifications. We explore potential problems with the previous classifications, considering principles and guidelines for future work on temporal retrieval models.
+</DOC>

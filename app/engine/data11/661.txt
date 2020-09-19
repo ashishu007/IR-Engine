@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 661 </DOCNO>
+An Algorithmic Framework for Performing Collaborative Filtering
+
+#Automated collaborative filtering is quickly becoming a popular technique for reducing information overload, often as a technique to complement content-based information filtering systems. In this paper we present an algorithmic framework for performing collaborative filering and new algorithmic elements that increase the accuracy of collaborative prediction algoritnms. We present a set of recommendations on selection of the right collaborative filtering algorithmic components.
+
+</DOC>

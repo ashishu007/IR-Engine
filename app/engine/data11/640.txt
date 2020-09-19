@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 640 </DOCNO>
+Using a Belief Revision Operator for Document Ranking in Extended Boolean Models
+
+#This paper claims that Belief Revision can be seen as a theoretical framework for document ranking in Extended Boolean Models. For a model of Information Retrieval based on propositional logic, we propose a similarity measure which is equivalent to a P-Norm case. Therefore it shares the P-Norm good properties and behaviour. Besides, it is theoretically ensured that this measure follows the notion of proximity between the documents and the query. The logical model can naturally deal with incomplete descriptions of documents and the similarity values are also obtained for this case.
+
+</DOC>

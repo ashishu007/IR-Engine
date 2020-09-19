@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 641 </DOCNO>
+Cross-Language Information Retrieval Based on Parallel Texts and Automatic Mining of Parallel Texts from the Web
+
+#This paper describes the use of a probabilistic translation model to cross-language IR (CLIR). The performance of this approach is compared with that using machine translation (MT). It is shown that using a probabilistic model, we are able to obtain performances close to those using an MT system. In addition, we also investigated the possibility of automatically gather parallel texts from the Web in an attempt to construct a reasonable training corpus. The result is very encouraging. We showed that in several tests, such a training corpus is as good as a manually constructed one for CLIR purposes.
+
+</DOC>

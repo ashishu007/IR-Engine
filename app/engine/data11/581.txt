@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 581 </DOCNO>
+How to Read Less and Know More - Approximate OCR for Thai
+
+# A large alphabet of similar letters and marks, wide and inconsistent variation in fonts and handwriting, and the absence of spaces between words all frustrate standard methods and applications for Thai-language OCR. We consider an alternative approach aimed at building information recognition and retrieval systems, rather than using OCR as a substitute for character-by-character data entry. Instead of trying to identify individual symbols, we define an approximation alphabet of similar shapes and clusters, targeted to the predicted lower-bound accuracy of existing OCR. We test the effectiveness of approximation alphabets of 3, 7, 9, and 27 symbols for two tasks: discriminating between ambiguous input or queries (as from handwritten or pen based input), and indexing scanned documents (as the basis of document-based IR systems).
+
+</DOC>

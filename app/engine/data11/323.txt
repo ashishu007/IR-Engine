@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 323 </DOCNO>
+Machine Learning and Vectorial Matching for an Image Retrieval Model: EXPRIM and the System RIVAGE
+
+#When a retrieval system has to fight against the first above reason, it must use a semantic knowledge, a very classic one being a thesaurus. This may help in combating the second reason but is not sufficient. Techniques relying on relevance feedback are very effective. One might say that they provide noise to fight against silence : they propose to the user a pretty lenient answer to his request, ask him to choose, amongst the retrieved documents, which ones At with his need, and then use this information to try to know his need better. This method has been studied and put into action by several authors [Sal 841 [v Rij 791. It proves to be very effective ; but one great difficulty is to provide enough noise but not too much, since observing and judging proposed documents may be heavy when documents are literal. Let us show that it comes particularly pertinent for image retrieval. A very frequent use of image retrieval is for illustration purposes. And the range of the illustrating ways is often broad. So, a pretty large freedom exists between the demand (the need) and the relevant images. Sometimes the user can and wishes to dictate his way of illustrating, so limiting this freedom a priori. But often he prefers to be guided by the base content and possibly by intuition to choose a way. Relevance feedback is particularly suitable in this case. 
+
+</DOC>

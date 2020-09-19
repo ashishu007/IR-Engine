@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 448 </DOCNO>
+An Evaluation Method for Stemming Algorithms
+
+#The effectiveness of stemming algorithms has usually been measured in terms of their effect on retrieval performance with test collections. This however does not provide any insights which might help in stemmer optimisation. This paper describes a method in which stemming performance is assessed against predefine concept groups in samples of words. This enables various indices of stemming performance and weight to be computed. Results are reported for three stemming algorithms. The validity and usefulness of the approach, and the problems of conceptual grouping, are discussed, and directions for further research are identified. 
+
+</DOC>

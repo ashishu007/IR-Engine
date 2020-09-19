@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 787 </DOCNO>
+Liberal Relevance Criteria of TREC - Counting on Negligible Documents?
+
+#Document pools of 38 topics from TREC-7 and TREC-8 were reassessed applying a four-point relevance scale. The goal of their reassessments was to support the development of IR systems and experiments emphasizing the aim of finding highly relevant documents instead of marginally relevant. Resulting assessments and the process itself were analyzed and compared to those of TREC. More than half of documents assessed relevant in TREC were regarded as marginal by our assessors. Information content was so insignificant that the value of these documents might be questioned in the relevance corpus. The characteristics of the relevance corpus and lessons learned from the reassessment project are discussed.
+
+</DOC>

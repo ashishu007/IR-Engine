@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 572 </DOCNO>
+A Method for Monolingual Thesauri Merging
+
+#Thesauri merging is the activity of consolidating a set of thesauri into a thesaurus which accomodates the vocabularies and the structure of all theasauri being merged. In this paper, we introduce a general framework for monolingual theasauri merging. We also present a domain independant set-theoretic model for the representations of terms, relationships, and integrity constraints. Finally, we present a method for the merging of monolingual thesauri focusing on its mechanisms for the detection of equivalent terms among the thesauri being merged. Our method expands previous work on the problem; we introduce equivalent assumptions that express similarity between terms and we propose a term distance model which can be used to guide the confirmation or rejection of equivalence assumptions.
+
+</DOC>

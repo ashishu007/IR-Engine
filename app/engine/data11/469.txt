@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 469 </DOCNO>
+LyberWorld - A Visualization User Interface Supporting Fulltext Retrieval
+
+# LyberWorld is a prototype lR user interface. It implements visualizations of an abstract information space - fulltext. The paper derives a model for such visualisations and an examplar user interface design is implemented for the probablistic fulltext retrieval system INQUERY. Visualisations are used to communicate information search and browsing activities in a natural way by applying metaphors of spatial navagation in abstract information spaces. Visualisation tools for exploring information spaces and judging relevance of information items are intorduced and an example session demonstartes the prototype. The presence of a spatial model in the user's mind and interaction with a system's corresponding display methods is regarded as an essential contribution towards natural interaction and reduction of cognitive costs during e.g. query construction, orientation within the database content, relevance judgement and orientation within the retrieval context.
+
+</DOC>

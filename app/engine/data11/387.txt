@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 387 </DOCNO>
+Versioning a Full-text Information Retrieval System
+
+#In this paper, we present an approach to the incorporation of object versioning into a distributed full-text information retrieval system. We propose an implementation based on instances of old classes to coexist (at least temporarily) with instances of the new classes, particularly in a distributed environment where changes propagate through the network at finite ve-ocities, suggests a solution in which metadata is versioned as well.
+
+</DOC>

@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 459 </DOCNO>
+A Full-Text Retrieval System with a Dynamic Abstract Generation Function
+
+#We have developed a Japanese full-text retrieval system named BREVIDOC that enavles the user to specify an area within a text for abstraction and to control the volume of the abstract interactively. This system analyses a document structure using linguistic knowledge only and 
+thus is domain-independent. In its text structure analysis, the system determines relations among paragraphs and sentences, based on linguistic clues  such as connectives, anaphoric expressions, and idiomatic expressions. The system analyses and stores the text structure in advance so that it can generate an abstract in real time by selecting sentences according to relative importance of rhetorical relations among the sentences. The retrieval system works on an engineering workstation.
+
+</DOC>

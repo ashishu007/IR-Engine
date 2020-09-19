@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 513 </DOCNO>
+Probability Kinematics in Information Retrieval
+
+#In this paper we discuss the dynamics of probabilistic term weights in different IR retrieval models. We present four different models based on different notions of retrieval. Two of these models are classical probabilistic models lond in use in IR, the two others are based on a logical technique of evaluating the probability of a conditional called Imaging, one is a generalisation of the other. We analyse the transfer of probabilities occuring in the representation space at retrieval time for these four models, compare their retrieval performance using classical test collections, and discuss the results.
+
+</DOC>

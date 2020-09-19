@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 544 </DOCNO>
+Retrieval of Complex Objects Using a Four-Valued Logic
+
+#The aggregated structure of documents plays a key role in full-text, multimedia, and network Information Retrieval (IR). Considering aggregation provides new querying fa-cilities and improves retrieval effectiveness. We present a knowledge representation for IR purposes which pays special attention to this aggregated structure of objects. In ad-dition, further features of objects can be described. Thus, the structure of full-text documents, the heterogeneity and the spatial and temporal relationships of objects typical for multimedia IR, and meta information for network IR are representable within one integrated framework. The model we propose allows for querying on the content of documents (objects) as well as on other features. The query result may contain objects having different types. Instead of retrieving only whole documents, the retrieval process determines the least aggregated entities that imply the query.
+
+</DOC>

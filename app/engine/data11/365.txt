@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 365 </DOCNO>
+Distributed Indexing: A Scalable Mechanism for Distributed Information Retrieval
+
+#Despite blossoming computer network bandwidths aud the emergence of hypertext and CD-ROM databases, lit-tle progress has been made towards uniting the world's library style bibliographic databases. While few advanced distributed retrieval systems can broadcast a query to hundreds of particpating databases, experience shows that local users almost always clog library retrieval systems. Hence broadcast remote queries will clog nearly every system. The premise of this work is that broadcast-based systems don not scale to world-wide systems. This project describes an indexing scheme that will permit thorough yet efficient searches of millions of retrieval systems. Our architecture will work with an arbitary number of indexing companies and information providers, and in the market place, could provide economic incentive for co-operation between database and indexing services. We call our scheme distributed indexing, and believe it will help researchers disseminate and locate both published and prepublication material.  
+</DOC>

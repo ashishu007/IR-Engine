@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 490 </DOCNO>
+A Language for Queries on Structure and Contents of Textual
+
+#We present a model for querying textual databases by both the structure and contents of the text. Our goal is to ob-tain a query language which is expressive enough in practice while being efficiently implementable, features not present at the same time in previous work. We evaluate our model regarding expressivity and efficiency. The key idea of the model is that a set-oriented query language based on oper-ations on nearby structure elements of one or more hierarchies is quite expressive and efficiently implementable, being a good tradeoff between both goals. 
+
+</DOC>

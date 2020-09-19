@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 586 </DOCNO>
+Analyses of Multiple Evidence Combination
+
+# It has been known that different representations of a query retrieve different sets of documents. Recent work suggests that significant improvements in retrieval performance can be achieved by combining multiple representations of an information need. However, little effort has been made to understand the reason why combining multiple sources of evidence improves retrieval effectiveness. In this paper we analyze why improvements can be achieved with evidence combination, and investigate how evidence should be com-bined. We describe a rationale for multiple evidence combination, and propose a combining method whose properties coincide with the rationale. We also investigate the effect of using rank instead of similarity on retrieval effectiveness. 
+
+</DOC>

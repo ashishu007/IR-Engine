@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 651 </DOCNO>
+The Paraphrase Search Assistant: Terminological Feedback for Iterative Information Seeking
+
+#We present a new linguistic approach to the construction of terminological feedback for use in interactive query refinement. The method exploits the tendency for key domain concepts within result sets to participate in families of semantically related lexical compounds. We outline an algorithm for computing a ranked list of result set In section 2; we motivate the invariably contained families of lexical compounds reflecting categories relevant to the query topic. During the course of these experiments, we made a number of pragmatic refinements to the term extraction algorithm, which we describe in the next section. 2.3 Term extraction from result lists We will refer to the thematic terms identified by our algorithm as facets and to their associated compounds as values.
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 501 </DOCNO>
+Efficient Processing of Vague Queries using a Data Stream Approach
+
+#In this paper, we consider vague queries in text and fact databases. A vague query can be formulated as a combination of vague criteria. A single database object can meet a vague criterion to a certain degree. We confine ourselves to queries for which the answer can be computed efficiently by (perhaps repetitive) combination of rankings to new rankings. Since users usually will inspect some of the best answer objects only, the corresponding rarkngs need to be computed just as far as necessary to generate these first answer objects. In this contribution we describe an approach for estimating the number of elements needed from the basic rankings to compute a given number of elements of the resulting ranking. Experiments with a large text database prove the applicability of our approach.
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 541 </DOCNO>
+Automatic Linking Of Thesauri
+
+#This paper describes a procedure for automatically linking thesauri. Such inter-thesauri linking will enable a user to query a database using terms from a thesaurus that was not used to index the database. The procedure uses a data driven approach for linking. Practiczd implementation using single link technique and a case study linking terms from Thesaurus of ERIC Descriptors and Thesaurus of Psychological Index Terms is described. 
+
+</DOC>

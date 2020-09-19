@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 528 </DOCNO>
+Visualizing Search Results: Some Alternatives to Query-Document Similarity
+
+#A digital library of computer science literature, Envision provides powerful information visualisation by displaying search results as a matrix of icons, with layout semantics under user control. Envision's Graphic view interacts with an Item Summary Window giving users access to bibliographic information, abstracts, and full content. While many visualizations interfaces for information retrieval systems depict ranked query-document similarity, Envision graphically presents a variety of document characteristics and supports an extensive range of user tasks. Formative usability evaluation results show how great user satisfaction with Envision's style of presentation and the document characteristics visualized.  
+
+</DOC>

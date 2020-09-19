@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 452 </DOCNO>
+Term Relevance Feedback and Query Expansion: Relation to Design
+
+# To improve information retrieval effectiveness, research in both the algorithmic and human approach to query expansion is required. This paper uses the human approach to examine the selection and effectiveness of search terms sources for query expansion. The results show that the most effective sources were the users written question statement, user terms derived during the interaction and terms selected from particular database fields. These findings indicate the need for the design and testing of automatic relevance feedback techniques that place greater emphasis on these sources. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 293 </DOCNO>
+On Link Prediction in Knowledge Bases: Max-K Criterion and Prediction Protocols
+
+#Building knowledge base embedding models for link prediction has achieved great success. We however argue that the conventional top-k criterion used for evaluating the model performance is inappropriate. This paper introduces a new criterion, referred to as max-k. Through theoretical analysis and experimental study, we show that the top-k criterion is fundamentally inferior to max-k. We also introduce two prediction protocols for the max-k criterion. These protocols are strongly justified theoretically. Various insights concerning the max-k criterion and the two protocols are obtained through extensive experiments.
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 637 </DOCNO>
+A Re-Examination of Text Categorization Methods
+
+#This paper reports that a controlled study with statistical significance tests on five text categorization metods: the Support Vector Machines (SVM), a k-Nearest Neighbour (kNN) classifier, a neural network (NNet) approach, the linear Linear Least-squares fit (LLSF) mapping and a Naive Bayes (NB) classifier. We focus on the robustness of these methods in dealing with a skewed category distribution, and their performance as function of the training-set category frequency. Our results show that SVM, kNN and LLSF significantly outperform NNet and NB when the number of positive training instances per category are small (less than ten), and that all the methods perform comparably when the categories are sufficiently common (over 300 instances). 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 754 </DOCNO>
+Predicting Category Accesses for a User in a Structured Information Space
+
+#In a categorized information space, predicting a user's information needs at the category level can facilitate topic-oriented services such as preloading contents by topics of interest. This paper presents a two-phase model to predict the category of a user's next access based on previous accesses. Phase 1 generates a snapshot of a user's preferences in categories by a temporal and frequency analysis of the user's access history. Phase 2 forms predictions at different category granularities using the computed preferences. Several alternatives for each phase are evaluated using on-line raters' rating behaviors. The results show that a method based on recency-frequency analysis of a user's whole history has the best prediction quality, even over a method based on path-based analysis (Markov model) using the combined history of all users.
+
+</DOC>

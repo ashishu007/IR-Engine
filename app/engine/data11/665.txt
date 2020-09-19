@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 665 </DOCNO>
+Relevance and contributing information types of searched documents in task performance
+
+#End-users base the relevance judgements of the searched documents on the expected contribution to their task of the information contained in the documents. There is a shortage of studies analysing the relationships between the experienced contribution, relevance assesments and type of information initially sought. This study categorises the types of information in documents being used in writing a research proposal for a master's thesis by eleven students throughout the various stages of the proposal writing process. The role of the specificity of the searched information in influencing its contribution is analysed. The results demonstrate that different types of information are sought at different stages of the writing process and thus the contribution of the information also differs at the different stages. The categories of the contributing information can be understood as aspects of topicality.
+
+</DOC>

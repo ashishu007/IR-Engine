@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 455 </DOCNO>
+Investigating Aboutness Axioms using Information Fields
+
+#This article proposes a framework, a so called information field , which allows information retrieval mechanisms to be compared inductively instead of experimentally. Such a comparasion occurs as follows: Both retrieval mechanisms are first mapped to an associated information field. Within the field, the axioms that drive the retrieval process can be filtererd out. In this way, the implicit assumptions governing an information retrieval mechanism can be brought to light. The retrieval mechanisms can be compared according to which axioms they are governed by. Using this method it is shown that Boolean retrieval is more powerful than a strict form of coordinate retrieval. The salient point is not the result in itself but how the result is achieved.
+
+</DOC>

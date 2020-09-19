@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 534 </DOCNO>
+Elicitations During Information Retrieval: Implications for IR System Design
+
+#What elicitation or requests for information do search intermediaries and users with information requests make before and during an information retrieval (IR) interaction - and for what purposes? These issues were investigated in two studies of elicitation during 40 mediated IR interactions - including one study of the user elicitation purposes and another of the search intermediary elicitation purposes. A total of 2409 elicitation were identified - 852 user elicitation within 10 purpose categories and 1557 search intermediary elicitation within 15 purpose categories. The elicitation purposes included requests for information on search terms and strategies, database selection, search procedures, system's outputs and relevance of retrieved items, and users' knowledge and previous information-seeking. Implications for the development of a dialogue-based model of IR interaction and the design of IR systems are also discussed. 
+
+</DOC>

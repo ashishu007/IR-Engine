@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 67 </DOCNO>
+Principles for the Design of Online A/B Metrics
+
+#This article is summarized in: the morning paper 
+an interesting/influential/important paper from the world of CS every weekday morning, as selected by Adrian Colyer
+
+</DOC>

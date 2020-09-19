@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 363 </DOCNO>
+Using the Cosine Measure in a Neural Network for Document
+
+#The task of document retrieval systems is to match one natural language query against a large number of natural language documents. Neural networks are known to be good pattern matchers. This paper reports our investigations in implementing a document retrieval system based on a neural network model. It shows that many of the standard strategies of information retrieval are applicable in a neural network model. 
+</DOC>

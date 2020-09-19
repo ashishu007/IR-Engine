@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 450 </DOCNO>
+Query Expansion Using Lexical-Semantic Relations
+
+#Applications such as office automation, news filtering, help facilities in complex systems, and the like require the ability to retrieve documents from full-text databases where vocabulary problems can be particularly severe. Experiments performed on small collections with single-domain thesauri suggest that expanding query vectors with words that are lexically related to the original query words can ameliorate some of the problems of mismatched vocabularies. This paper examines the utility of lexical query expansion in the large, diverse TREC collection. Concepts are represented by WordNet synonym sets and are expanded by following the typed links included in Word Net. Experimental results show this query expansion technique makes little difference in retrieval effectiveness if the original queries are relatively complete descriptions of the information being sought even when the concepts to be expanded are selected by hand. Less well developed queries can be significantly improved by expansion of hand-chosen concepts. However, an automatic procedure that can approximate the set of hand picked synonym sets has yet to be devised, and expanding by the synonym sets that are automatically generated can degrade retrieval performance. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 633 </DOCNO>
+``User Revealment'' - a Comparison of Initial Queries and Ensuing Question Development in Online Searching and in Human Reference Interactions
+
+#This paper compares user's opening queries and their search progression in two sets of data: logs of end-user online searches and user-librarian reference interactions. The two sets of opening queires have common characteristics, in particular they are both too general in relation to the user's search intention. Search progression is very different in two settingsm and the human-mediated searches have a far higher success rate than the online searches. A communication model, based on theories of conversations between strangers, is applied to explain how users are induced to reveal their search intention in the dialogue with the intermediary. Establishing and maintaining contact, creating trust and ensuring understanding are essential elements in these dialogues and play a larger role than the intermediary's questions. Suggestions for introduction of such elements to achieve user revealmentin the online searches are discussed. 
+
+</DOC>

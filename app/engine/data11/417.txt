@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 417 </DOCNO>
+Is Huffman Coding Dead
+
+#In recent publications about data compression, arithmetic codes are often suggested as the state of the art, rather than the more popular Huffman codes. While it is true that Huffman codes are not optimal in all situations, we show that the advantage of arithmetic codes in compression performance is often negligible. Referring also to other criteria, we conclude that for many applications, Huffman codes should still remain a competitive choice
+
+</DOC>

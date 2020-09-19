@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 364 </DOCNO>
+Preference Structure, Inference and Set-Oriented Retrieval
+
+#In this paper, a framework for modeling information retrieval is introduced by combining the salient features of many inference-based and set-oriented retrieval models. The degrees of relevance of different subsets of documeuts are inferred from the user preference judgments on subsets of index terms. In order to demonstrate the usefulness of the proposed framework, the Boolean and the binary vector space models are analyzed. This analysis reveals the structures implicitly used in these models. 
+
+</DOC>

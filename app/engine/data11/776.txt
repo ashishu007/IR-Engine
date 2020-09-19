@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 776 </DOCNO>
+Collaborative Filtering with Privacy via Factor Analysis
+
+#Collaborative filtering is valuable in e-commerce, and for direct recommendations for music, movies, news etc. But today's systems use centralized databases and have several disadvantages, including privacy risks. As we move toward ubiquitous computing, there is a great potential for individuals to share all kinds of information about places and things to do, see and buy, but the privacy risks are severe. In this paper we introduce a peer-to-peer protocol for collaborative filtering which protects the privacy of individual data. A second contribution of this paper is a new collaborative filtering algorithm based on factor analysis which appears to be the most accurate method for CF to date. The new algorithm has other advantages in speed and storage over previous algorithms. It is based on a careful probabilistic model of user choice, and on a probabilistically sound approach to dealing with missing data. Our experiments on several test datasets show that the algorithm is more accurate than previously reported methods, and the improvements increase with the sparseness of the dataset. Finally, factor analysis with privacy is applicable to other kinds of statistical analyses of survey or questionaire data scientists (e.g. web surveys or questionaires).
+
+</DOC>

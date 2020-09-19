@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 580 </DOCNO>
+Time, Relevance and Interaction Modelling for Information Retrieval
+
+# The most common method for assessing the worth of an information retrieval (lR) system is through precision and recall graphs. These graphs show how precise an IR engine is when working at fixed levels of recall. This paper introduces number-to-view graphs, a new graphing method based on an early evaluation measure, which supplement precision-recall graphs by plotting the number of relevant documents a user wishes against the number of documents they would have to view to encounter them. The paper also proposes a step forward from number-to-view graphs that directly includes presentation, interface and temporal issues within the same frame work as engine effectiveness: time-to-view graphs. Taken together, these graphs and models introduce a new evaluation approach called Expected Search Duration. 
+
+</DOC>

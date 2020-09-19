@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 487 </DOCNO>
+A Trainable Document Summarizer
+
+#To summarize is to reduce in complexity, and hence in length, while retaining some of the essential qualities of the original. This paper focusses on document extracts, a particular kind of computed document summary. Document extracts consisting of roughly 20% the original can be as informative as the full text of a document, which suggests that even shorter extracts may be useful indicative summmies. The trends in our results are in agreement with those of Edmundson who used a subjectively weighted combination of features as opposed to training the feature weights using a corpus. We have developed a trainable summarization program that is grounded in a sound statistical framework. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 521 </DOCNO>
+Query Expansion Using Local and Global Document Analysis
+
+# Automatic query expansion has long been suggested as a technique for dealing with the fundamental issue of word mismatch in information retrieval. A number of approaches to ezpanrnion have been studied and, more recently, attention has focused on techniques that analyze the corpus to discover word relationship (global techniques) and those that analyze documents retrieved by the initial query ( local feedback). In this paper, we compare the effectiveness of these approaches and show that, although global analysis haa some advantages, local analysis is generally more effective. We also show that using global analysis techniques, such as word context and phrase structure, on the local set of documents produces results that are both more effective and more predictable than simple local feedback. 
+
+</DOC>

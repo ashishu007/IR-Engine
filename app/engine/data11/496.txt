@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 496 </DOCNO>
+Searchers and Searchers: Differences between the Most and Least Consistent Searchers
+
+#Differences between the most and least consistent searchers are considered, Attention is payed both to term-consistency and concept-consistency. The paper is based on an empirical study where 32 searchers formulated query statements from 12 search requests. The searchers were stso interviewed to obtain information about their experience. There was a statistically significant dependence between term-consistency and the terminologicat styles of searchers on the one hand and between concept-consistency and searchers' search strategies on the other hand. There were also clear differences in the experience of most and least consistent searchers both in information storage and information retrieval.
+
+</DOC>

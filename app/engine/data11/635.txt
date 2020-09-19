@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 635 </DOCNO>
+SCAN: Designing and Evaluating User Interfaces to Support Retrieval From Speech Archives
+
+#Previous examinations of search in textual archives have assumed that users first retrieve a ranked set of documents relevant to their query, and then visually scan through these documents, to identify the information they seek. While document scanning is possible in text, it is much more laborious in speech archives, due to the inherently serial nature of speech. Yet, in developing tools for speech access, little attention has so far been paid to users supporting local navigation multimodally helps relevance ranking and fact-finding, but not summarization. We analyse the reasons for system success and identify outstanding research issues in UI design for speech archives.
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 456 </DOCNO>
+A Probabilistic Terminological Logic for Modelling Information Retrieval
+
+#Some researchers have recently argued that the task of Information Retrieval (IR) may successfully be described by means of mathematical logic; accordingly, the relevance of a given document to a given information need should be assesed by checking the validity of the logical formula d -> n, where d is the representation of the document , n is the representation of the infomation need and "->" is the conditional connective of the logic in question. In a recent paper we have proposed Terminological Logics (TLs) as suitable logics for modelling IR within the paradigm described above. This proposal, however, while making a step towards adequately modelling IR in a logical way, does not account for the fact that the relevance of a document to an information need can only be assesed up to a limited degree of certainty. In this work, we try to overcome this limitation by introducing a model of IR based  on a Probabilistic TL, i.e. a logic allowing the expression of real-valued terms representing probability values and possibly involving expressions of a TL. Two different types of probabilistic information, i.e. statistical information and information about degrees of beilef, can be accounted for in this logic. The paper presents a formal syntax and a denotational (possible-worlds) semantics for this logic, and discusses, by means of a number of examples, its adequacy as a formal tool for describing IR. 
+
+</DOC>

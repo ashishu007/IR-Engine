@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 664 </DOCNO>
+Cluster-Based Language Models for Distributed Retrieval
+
+#Effective retrieval in a distributed environment is an important but difficult problem. Lack of effectiveness appears to have three causes. First, collection selection based on word histograms is not appropriate for heterogeneous collections. Second, relevant documents are scattered over many collections and searching a few collections misses many relevant documents. Third, most existing collection selection metrics lack sound theoretical justifications and hence may not be well tuned to the problem. We propose a new approach to distributed retrieval based on document clustering and language modelling. Document clustering is used to organize collections around topics. Language modelling is used to properly represent topics and effectively select the right topics for a query. Based on these ideas, three methods are proposed to suit different environments. We show that all three methods improve effectiveness of distributed retrieval.
+
+</DOC>

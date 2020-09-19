@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 392 </DOCNO>
+Latent Semantic Indexing is an Optimal Special Case of Multidimensional Scaling
+
+#Latent Semantic Indexing (LSI) is a technique for representing documents, queries, and terms as vectors in a multidimensional real-valued space. The represen-tations are approximations to the original term space encoding, and are found using the matrix technique of Singular Value Decomposition. In comparison, Mul-tidimensional Scaling (MDS) is a class of data analysis techniques for representing data points as points in a multidimensional real-valued space. The objects are represented so that inter-point similarities in the space match inter-object similarity information provided by the researcher We illustrate how the document repre-sentations given by LSI are equivalent to the optimal representations found when solving a particular LIDS problem in which the given inter-object similarity in-formation is provided by the inner product similarities between the documents themselves. We further analyse a more general MDS problem in which the inter-document similarity information, although still in inner product form, is arbitrary with respect to the vector space encoding of the documents. 
+
+</DOC>

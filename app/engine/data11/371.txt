@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 371 </DOCNO>
+Complementary Structures in Disjoint Science Literatures
+
+#Difficult and intriguing information retrieval IR problems derive from what I call complementary but disjoint CBD structures within the literature of science. Notwithstanding the variability and unreliability of individual citation practives, disjointness in the open domain of science can be highly reliable for sufficiently large literatures. My main purpose in this paper is to examine in detail two complementarty structures, the first based on an already existing historical example and the second based on one of the studies previously reported. 
+
+</DOC>

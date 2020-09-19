@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 512 </DOCNO>
+Probabilistic Datalog - A Logic For Powerful Retrieval Methods
+
+#In the logical approach to information retrieval, retrieval is considered as uncertain inference. Here we present a new, powerful inference method for this purpose which combine Datalog with probability theory on the basis of intentional semantics. We describe syntax and semantics of probabilistic Datalog and also present an evaluation method and a prototype implementation. This approach allows for easy formulation of specific retrieval models for arbitary applications, and classical probabilistic IR models can be implemented by specifying the appropriate rules. In comparison to other approaches, the possibility of recursive rules allows for more powerful inferences. Finally, probabilistic Datalog can be used as a query language for integrated information retrieval and database systems.
+
+</DOC>

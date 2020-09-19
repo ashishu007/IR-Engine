@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 453 </DOCNO>
+Modelling Information Retrieval Agents with Belief Revision
+
+#This paper describes the development and computational testing of a model of the information intermediary based on an AI theory of belief revision. We describe the theoretical foundations of the work in a general account of the way an agent's beliefs and intentions are formed and modified, and in an analysis of the functional tasks an intermediary has to carry out; we indicate the specific developments required to automate and integrate both aspects of intermediary behaviour, as determinants of interactive dialogue with the user; and report, with illustrations, on tests and findings. The research shows that such approaches can be implemente in an essentially principled manner, though there are many large problems still to be overcome, and our experiments are only in the first, extreamly simple, trials of the basic strategy for intermediary simulation.
+
+</DOC>

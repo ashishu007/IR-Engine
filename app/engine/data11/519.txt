@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 519 </DOCNO>
+On the Reuse of Past Optimal Queries
+
+#Information Retrieval (IR) systems exploit user feedback by generating an optimal query with respect to a particular information need. Since obtaining an optimal query is an ex-pensive process, the need for mechanisms to save and reuse past optimal queries for future queries is obvions. In this article, we propose the use of a query base, a set of persistent past optimal queries, and investigate similarity measures between queries. The query base can be used either to answer user queries or to formulate optimal queries. We justify the former case analytically and the latter case by experiment. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 467 </DOCNO>
+Some Simple Effective Approximations to the 2-Poisson Model for Probabilistic Weighted Retrieval
+
+#The 2-Poisson model for term frequencies is used to suggest ways of incorporating cartain variables in probabilistic models for information retrieval. The variables concerned are within-document term frequency, document length, and within-query term frequency. Simple weighting functions are developed, and tested on the TREC test collection. Considerable performance improvements (over simple inverse collection frequency weighting) are demonstrated.
+
+</DOC>

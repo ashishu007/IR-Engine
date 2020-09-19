@@ -1,0 +1,10 @@
+<DOC>
+<DOCNO> 376 </DOCNO>
+Creating Segmented Databases from Free Text for Text Retrieval
+
+# Indexing text for accurate retrieval is a dificult and important problem. On-ltne information services generally depend on 
+"keyword" indices rather than other methods of retrieval, because of the practical features of keywords for storage, dissemination, and browsing as well as for retrieval. However, these methods of indexing have two major drawbacks: First, they must be assigned labourisly assigned by human indexers. Second, they are inaccurate, because of mistakes made by the indexers as well as the difficulties users have in choosing keywords for their queires, and the ambiguity a keyword may have.
+Current Natural Language text processing (NLP) methods help to overcome these problems. Such methods can provide automatic indexing and keyword assignment capabilities that are at least as accurate as human indexers in many applications. In addition, NLP systems can increase the information contained in keyword fields by separating keywords into segments, or distinct fields that capture certain discriminating content or relations among keywords.
+This paper repports on a system that uses natural language text processing to derive keywords from free text news stories, separate these keywords into segments, and automatically build a segmented database. The system is used as part of a commercial news "clipping" and retrieval product. Preliminary results show improved accuracy, as well as reduced cost, resulting from these automated techniques.
+ 
+</DOC>

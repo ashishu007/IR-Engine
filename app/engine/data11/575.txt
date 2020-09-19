@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 575 </DOCNO>
+Guessing Morphology from Terms and Corpora
+
+# This study proposes an algorithm for automatically acquiring morphological links between words. This algorithm relies on the concurrent use of a corpus and a list of multi-word terms, and does not require any prior linguistic knowledge. The four steps of the algorithm are (1) single-word truncation, (2) conflation of multi-word terms, (3) classification and filtering, and (4) clustering of contiation classes. At each step a precise evaluation is performed in order to chose the optimal parameters. The final results indicate a clustering of 45% the classes with a prectilon of 87%. The deriva-tional knowledge acquired through this method can be used for conceiving a domain-oriented stemmer for scientific and technical corpora. 
+
+</DOC>

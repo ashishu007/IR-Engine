@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 446 </DOCNO>
+Towards Language Independent Automated Learning of Text Categorisation Models
+
+#We describe the results of extensive machine learning experiments on large collections of Reuters' English and German newswires. The goal of these experiments was to automatically discover classification patterns that can be used for assignment of topics to the individual newswires. Our results with the English newswire collection show a very large gain in performance as compared to published benchmarks, while our initial results with the German newswires appear very promising. We present our methodology, which seems to be insensitive to the language of the document collections, and discuss issues related to the differences in resluts that we have obtained for the two collections. 
+
+</DOC>

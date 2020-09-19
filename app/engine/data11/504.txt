@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 504 </DOCNO>
+The Newspaper Image Database: Empirical Supported Analysis of Users' Typology and Word Association Clusters
+
+#This paper touches upon the problems arising in connection with indexing and retrieval for effective searching of ditigized images. An empirical study, based on 13 newspaper archives, demonstrates that rules for indexing images can be formulated and that a user group typology can be established. An image user model is suggested based on word clusters. The emphirical analysis demonstartes how the results of the word association tests can be used as the foundation for a semantic model.
+
+</DOC>

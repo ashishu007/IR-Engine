@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 346 </DOCNO>
+Automatic Text Structuring and Retrieval: Experiments in Automatic Encyclopedia Searching
+
+#Many conventional approaches to text analysis and information retrieval prove ineffective when large text collections must be processed in heterogeneous subject areas. An alternative text manipulation system is outlined useful for the recognition of content similarities between text excerpts, based on flexible text matching procedures carried out in several contexts of different scope. The methods are illustrated by search experiments performed with the 29-volume Funk and Wagnalls encyclopaedia.
+
+</DOC>

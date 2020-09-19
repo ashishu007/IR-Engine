@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 471 </DOCNO>
+Information Filtering Based on User Behaviour Analysis and Best Match Text Retrieval
+
+# Information filtering systems have potential power that may provide an efficient means of navigating through large and diverse data space. However, current information filtering technology heavily depends on a user's active participation for describing the user's interest to information items, forcing the user to accept extra load to overcome the already loaded situation. Furthermore, because the user's interests are often expressed in discrete format such as a set of keywords sometimes augmented with  if-then rules, it is difficult to express ambiguous interests, which users often want to do. We propose a technique that uses user behaviour monitoring to transparently capture the users interest in information, and a technique to use this interest to filter incoming information in a very efficient way. The proposed techniques are verified to perform very well by having conducted a field expermient and a series of simulation. 
+
+</DOC>

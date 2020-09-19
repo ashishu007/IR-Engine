@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 657 </DOCNO>
+Context-Sensitive Vocabulary Mapping with a Spreading Activation Network
+
+#A spreading activation network model is applied to the problem of reconciling heterogeneous indexing (STI index terms and ApJ subject descriptors) in a database of documents in the field of astronomy. Drawing on evidence from a set of co-indexed documents, a 3-layer feed-forward network is constructed. It includes an input term layer (source vocabulary), document layer, and output term layer (target vocabulary). Results of experiments show that the network can uncover both static, term-to-term relationships, and those that depend on the context of a particular document.
+
+</DOC>

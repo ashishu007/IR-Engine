@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 445 </DOCNO>
+Expert Network: Effective and Efficient Learning from Human Decisions in Text Categorization and Retrieval
+
+#Expert Network (ExpNet) is our new approach to automatic categorization and retrieval of natural language texts. We use a training set of texts with expert-assigned categories to construct a network which approximately reflects the conditional probabilities of categories given a text. The input nodes of the network are words in the training texts, the nodes on the intermediate level are the training texts, and the output nodes are categories. The links between nodes are computed based on statistics of the word distribution and the category distribution over the training set, ExpNet is used for relevance ranking of candidate categories of an arbitrary text in the case of text categorization, and for relevance ranking of documents via categories in the case of text retrieval. We have evaluated ExpNet in categorization and retrieval on a document collection of the MEDLINE database, and observed a performance in recall and precision comparable to the Linear Leaat Squares Fit (LLSF) mapping method, and significantly better than other methods tested. Computationally, ExpNet has an O( IV log IV) time complexity which is much more efficient than the cubic complexity of the LLSF method. The simplicity of the model, the high recall-precision rates, and the efficient computation together make EzpNet preferable as a practical solution for real-world applications. 
+
+</DOC>

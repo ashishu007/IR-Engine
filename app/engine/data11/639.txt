@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 639 </DOCNO>
+A Similarity-based Probability Model for Latent Semantic Indexing
+
+#A dual probability model is constructed for the Latent Semantic Indexing (LSI) using the cosine similarity measure. Both the document-document similarity matrix and the term-term similarity matrix naturally arise from the maximum likelihood estimation of the model parameters, and the optimal solutions are the latent semantic vectors of  LSI. Dimensionality reduction is justified by the statistical significance of latent semantic vectors as measured by the likelihood of the model. This leads to a statistical criterion for the optimal semantic dimensions, answering a critical open question in LSI with practical importance. Thus the model establishes a statistical framework for LSI. Ambiguities related to statistical modelling of LSI are clarified.
+
+</DOC>

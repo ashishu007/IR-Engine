@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 479 </DOCNO>
+Adapting a Full-text Information Retrieval System to the Computer Troubleshooting Domain
+
+# Them has been much research in full-text information retrieval on automated and semi-automated methods of query expansion to improve the effectiveness of user queries. In this paper we consider the challenges of tuning an IR system to the domain of computer troubleshooting, where user queries tend to be very short and natural language query terms m intermixed with terminology from a vari-ety of technical sublanguages. A number of heuristic techniques for domain knowledge acquisition are described in which the complementary contributions of query log data and corpus analysis are exploited. We discuss the implications of sublanguage domain tuning for run-time query expansion tools and document indexing, arguing that the conventional devices for more purely "natural language" domains may be inadequate.  
+
+</DOC>

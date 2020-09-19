@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 749 </DOCNO>
+The Importance of Prior Probabilities for Entry Page Search
+
+#An important class of searches on the world-wide-web has the goal to find an entry page of an organisation. Entry page search is quite different from ad hoc search. Indeed a plain ad hoc system performs disappointingly. We explored three non-content features of web pages: page length, number of incoming links and URL form. Especially the URL form proved to be a good predictor. Using URL form priors we found over 70% of all entry pages at rank 1, and up to 89% in the top 10. Non-content features can be easily accommodated by our retrieval model as a prior.
+
+</DOC>

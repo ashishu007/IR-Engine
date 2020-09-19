@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 559 </DOCNO>
+On Relevance Weights with Little Relevance Information
+
+#The relationship between the Robertson/Sparck Jones relevance weighting formula and the Croft/Harper version for no relevanee information is discussed. A method of avoiding the negative weights sometimes implied by the Croft/Harper version is proposed which turns out to involve a return to the original Sparck Jones inverse collection frequency weight. The paper then goes on to propose a new way of using small amounts of relevanee information in the estimation of relevance weight. Some experiments using TREC data are reported.
+
+</DOC>

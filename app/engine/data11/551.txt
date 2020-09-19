@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 551 </DOCNO>
+Incremental Relevance Feedback for Information Filtering
+
+# We use data from the TREC routing experiments to explore how relevance feedback can be applied incrementally-using a few judged documents each time to achieve results that are as good as if the feedback occurred in one pass. We show that relatively few judgments are needed to get high-quality results. We also demonstrate methods that reduce the amount of information archived from past judged documents without adversely affecting effectiveness. A novel simulation shows that such techniques are useful for handling long-standing queries with drifting notions of relevance. 
+
+</DOC>

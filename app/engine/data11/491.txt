@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 491 </DOCNO>
+An NF<sup>2</sup> Relational Interface For Document Retrieval, Restructuring and Aggregation
+
+#Complex documents are used in many environments, e.g., information retrieval (IR). Such documents contain subdocuments, which may contain further subdocuments, etc. Powerful tools are needed to facilitate their retrieval, restructuring, and analysis. Existing IR systems are poor in complex document restructuring and data aggregation. However, in practice, IR system users would often want to obtain aggregation information on subdocuments of complex documents. In this paper we address this problem and provide a truly declarative and powerful interface for the users. Our interface is based on the non-first-normal-form (NF2) relational model. It allows intuitive and systematic modeling of complex documents.
+
+</DOC>

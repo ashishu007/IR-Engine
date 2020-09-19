@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 579 </DOCNO>
+Users' Perception of the Performance of a Filtering System
+
+#Although filtering electronic information is spreading rapidly, very few studies examined users' perceptions about the successes of filtering. Users at the Boeing Company participated in a study which collected data through observation, verbal protocols, questionaire, and interviews. Data analysis used four levels of relevance to assess the improtance, and frequency of use, of thirteen criteria for relevance, and fourteen for non relevance, that are not topics or subject matters. Results showed that percieved precision ratios for non-filtered information were higher than the non-filtered information, but not significantly and still could be improved even though modt respondants were satisfied with these ratios. Developing methods to create and maintain useful profiles, and finding ways to incorporate relevance as well as non-relevance criteria into profiles, are necessary to improve performance of filtering mechanisms.
+
+</DOC>

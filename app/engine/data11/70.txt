@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 70 </DOCNO>
+The Data Stack in Information Retrieval
+
+#I propose to look at information retrieval applications from the perspective of the data stack infrastructure that is needed in research prototypes and production systems.
+
+</DOC>

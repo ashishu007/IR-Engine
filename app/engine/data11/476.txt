@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 476 </DOCNO>
+Document and Passage Retrieval Based on Hidden Markov Models
+
+# Introduced is a new approach to Information Retrieval developed on the basis of Hidden Markov Models (HMMs). HMMs are shown to provide a mathematically sound framework for retrieving documents-documents with predefined boundaries and also entities of information that are of arbitrary lengths and formats (passage retrieval). Our retrieval model is shown to encompass promising capabilities: First, the position of occurances of indexing features can be used for indexing. Positional information is essential, for instance, when considering phrases, negation, and the proximity of features. Second, from training collections we can derive automatically optimal weights for arbitrary features. Third, a query dependant structure can be determined for every document by segmenting the document into passages that are either relevant or irrelevant to the query. The theoretical analysis of our retrieval model is complemented by the resluts of preliminary experiments.
+
+</DOC>

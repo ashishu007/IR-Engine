@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 574 </DOCNO>
+Effective Use of Natural Language Processing Techniques for Automatic Conflation of Multi-Word Terms: The Role of Derivational Morphology, Part of Speech Tagging, and Shallow Parsing
+
+# We present a corpus-based system to expand multi-word index terms using a part-of-speech tagger and a full-fledged derivational morphological system, combined with a shallow parser. The system has been applied to French. The unique contribution of the research is in using these linguistically based tools with safety filters in order to avoid the problems of degradation typically associated with derivational analysis and generation. The successful expansion and thus conflation of terms, increases indexing coverage up to 30% with precision of nearly 90% for correct identification of related terms. The fully implemented system is described with particular attention on the role of derivations morphology and phrasal relations. Results and evaluation are presented in terms of precision and recall, with an analysis and discussion of errors. This paper illustrates how natural language processing tools, when combined effectively for tasks to which they are especially suited, indicates the potential for the application of natural language processing (NLP) techniques in information retrieval (IR).
+
+</DOC>

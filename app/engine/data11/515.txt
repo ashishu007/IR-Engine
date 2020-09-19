@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 515 </DOCNO>
+One Term Or Two
+
+# How effective is stemming? Text normalization? Stemming experiments test two hypotheses: one term (+ stemmer) or two (-stemmer). The  truth lies somewhere in between. The correlations, p, betwen a word and its variants (e.g., +s, -s, +ly, +uppercase)
+ tend to be small (refuting the one term hypothesis), but non-negligible (refuting the two term hypothesis). Moreover, p varies systematically depending on the words involved; it is relatively large for a good keyword, p(hostage, hostages) ~0.5 and for small pairs with little content, p(anytime, Anytime)~0, or conflicting content, p(continential, Continential) ~0.
+
+</DOC>

@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 124 </DOCNO>
+Health Monitoring on Social Media over Time
+
+#Social media has become a major source for analyzing all aspects of daily life. Thanks to dedicated latent topic analysis methods such as the Ailment Topic Aspect Model (ATAM), public health can now be observed on Twitter. In this work, we are interested in monitoring people's health over time. Recently, Temporal-LDA (TM?LDA) was proposed for efficiently modeling general-purpose topic transitions over time. In this paper, we propose Temporal Ailment Topic Aspect (TM?ATAM), a new latent model dedicated to capturing transitions that involve health-related topics. TM?ATAM learns topic transition parameters by minimizing the prediction error on topic distributions between consecutive posts at different time and geographic granularities. Our experiments on an 8-month corpus of tweets show that it largely outperforms its predecessors.
+</DOC>

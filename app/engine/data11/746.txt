@@ -1,0 +1,8 @@
+<DOC>
+<DOCNO> 746 </DOCNO>
+Impact Transformation: Effective and Efficient Web Retrieval
+
+
+#We extend the applicability of impact transformation, which is a technique for adjusting the term weights assigned to documents so as to boost the effectiveness of retrieval when short queries are applied to large document collections. In conjunction with another technique called quantisation, impact transformation allows improved query execution rates compared to traditional vector-space similarity computations, as the number of arithmetic operations can be reduced. We give results based upon the TREC web data that show the combination of these two techniques, plus a third thresholding step, to yield highly competitive retrievel, in terms of both effectiveness and efficiency, and for both short and long queries.
+
+</DOC>

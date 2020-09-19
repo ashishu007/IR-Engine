@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 457 </DOCNO>
+Retrieving Terms and their Variants in a Lexicalised Unification-Based Framework
+
+#Term extraction is a major concern for information retrieval. Terms are not fixed forms and their variations prevent them from being identified by a match with thier initial string or inflection. We show that a local syntactic approach to this problem can give good results for both the quality of identification and parsing time. A specific tool, FASTR, is developed which handles an identification of basic terms and a parser of their variations as well. Terms are described by logic rules automatically generated from terms and their categorical structure. Variations are represented by metarules. The parser effectively processes a large corpora with big dictionaries and mixes lexical identification with local syntactic analysis. We evaluate the accuracy of results produced by these metarules and improve these results with filtering metarules.
+
+</DOC>

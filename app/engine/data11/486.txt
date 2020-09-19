@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 486 </DOCNO>
+Parallel Text Retrieval on a High Performance Super Computer Using the Vector Space Model
+
+# This paper discusses the efficiency of a parallel text retrieval system that is based on the Vector Space Model. Specifically, we describe a general parallel retrieval algorithm for use with this model, the application of the algorithm in the FIRE system [I], and its implementation on the high performance GCe131512 Parsytec parallel machine [2]. The use of this machine's two-dimensional grid of processors provides an efficient basis for the virtual tree that lies at the heart of our retrieval algorithm. Analytical and experimental evidence is preesnted to demonstrate the efficeincy of the algorithm. 
+
+</DOC>

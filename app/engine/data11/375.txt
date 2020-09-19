@@ -1,0 +1,6 @@
+<DOC>
+<DOCNO> 375 </DOCNO>
+Automatic Generation of Hypertext Links in Information Retrieval Systems: A Stochastic and an Incremental Algorithm
+
+#A hypertext proceedure for browsing through documentary databases is proposed, based upon a global synthetic mapping in addition to a set of local scanning axes. A method is developed for automatic generation of these relevant axes: local component analysis. It consists in tracking the local maxima of a "partial inertia" landscape. First, a "neural" algorithm, converging after several passes on the data is presented. Then deterministic one-pass algorithm is deduced, allowing dynamic data-flow analysis. 
+</DOC>

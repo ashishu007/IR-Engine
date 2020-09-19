@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 355 </DOCNO>
+Distributed Representations in a Text Based Information Retrieval System: A New Way of Using the Vector Space Model
+
+#In this paper we discuss how the Vector Space Model of Information Retrieval can be used in a new way by combining connectionist ideas about distributed representations with the concept of propositional structures and we discuss a prototype Information Retrieval system, PELICAN, which has been constructed in order to experiment with these ideas. 
+
+</DOC>

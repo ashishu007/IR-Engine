@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 349 </DOCNO>
+Inconsistencies and Misnomers in Probabilistic IR
+
+#The probabilistic theory of information retrieval involves the construction of mathematical models based on statistical assumptions of various sorts. One of the hazards inherent in this kind of theory construction is that the assumptions laid down may be inconsistent with the data to which they are applied. An-other hazard is that the stated assumptions may not be the real assumptions on which the derived modelling equations or resulting experiments are actually based. Both kinds of error have been made repeatedly in research on probabilistic information retrieval. One consequence of these lapses is that the statistical character of certain probabilistic IR models, including the so-called The entirely lacking in significance or predictive power. It makes no sense that good experimental results could come out of an inconsistent theory. It is tempting to explain this conundrum by suggesting that the inconsistencies in question were only minor ones. 
+
+</DOC>

@@ -1,0 +1,7 @@
+<DOC>
+<DOCNO> 518 </DOCNO>
+Relevance Feedback With Too Much Data
+
+# Modern text collections often contain large documents that span several subject areas. Such documents are problematic for relevance feedback since inappropriate terms can easily be chosen. This study explores the highly effective approach of feeding back passages of large documents. A less-expensive method that discards long documents is also reviewed and found to be effective if there are enough relevant documents. A hybrid approach that feeds back short documents and passages of long documents may be the best compromise. 
+
+</DOC>
