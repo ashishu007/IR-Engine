@@ -12,7 +12,7 @@ sws.append("docno")
 sws.append("document")
 Stopwords = set(sws)
 
-def process_files(file_dir):
+def process_files(file_dir, do_stem):
     """
     process the files and create file-to-term dictionary
     """
@@ -43,8 +43,9 @@ def process_files(file_dir):
         content = pattern.sub(' ',content)
         words = content.split()
         words = [word for word in words if word not in Stopwords]
-        stemmer = PorterStemmer()
-        words = [stemmer.stem(word) for word in words]
+        if do_stem =="yes":
+            stemmer = PorterStemmer()
+            words = [stemmer.stem(word) for word in words]
         file_to_terms[i] = words
         unique_words = unique_words + words
     unique_words = list(set(unique_words))
@@ -65,12 +66,12 @@ def get_ii(ftt, uw):
                 ii[word]["pos"].append({i: ctr[word]})
     return ii
 
-def get_inv_ind(load_saved=True):
+def get_inv_ind(corpus="cat_dog", do_stem="yes", load_saved=True):
     # if not os.path.exists("./app/engine/pkls/inverted_index.pkl"):
     #     load_saved = False
     # if not load_saved:
     print("loading files and creating index ...")
-    file_to_terms, unique_words, file_content = process_files("./engine/data")
+    file_to_terms, unique_words, file_content = process_files("./engine/{}".format(corpus), do_stem)
     print("files loaded, index created, now creating inverted index ...")
     inv_ind = get_ii(file_to_terms, unique_words)
     print("inverted ondex created ...")
