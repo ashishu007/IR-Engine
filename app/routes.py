@@ -16,5 +16,5 @@ def send_result():
         form_r = form_result.to_dict(flat=False)
         print(form_r)
     docs = get_retrieved_docs(form_r["query"][0])
-    print(docs)
-    return render_template("display.html", docs=docs)
+    # print(docs)
+    return render_template("display.html", docs=docs, query=form_r["query"][0])

@@ -7,6 +7,7 @@
         <style>
         h1 {text-align: center;}
         h2 {text-align: center;}
+        h3 {text-align: center;}
         form {text-align: center;}
         p {text-align: center;}
         div {text-align: center;}
@@ -20,8 +21,8 @@
         }
         .my-custom-scrollbar {
             position: relative;
-            height: 400px;
-            /* width: auto; */
+            height: 700px;
+            /* width: 400px; */
             overflow: auto;
         }
         .table-wrapper-scroll-y {
@@ -43,11 +44,13 @@
     
         <h1>RGU SoC IR Search-Engine</h1>
         <h2>Retrieved Documents</h2>
+        <h3>Query: {{ query }}</h3>
         <div class="table-wrapper-scroll-y my-custom-scrollbar">
             <table class="table table-bordered table-striped mb-0 center">
                 <thead>
                     <tr>
                         <th scope="col">DocumentID</th>
+                        <th scope="col">Title</th>
                         <th scope="col">Content</th>
                     </tr>
                 </thead>
@@ -55,7 +58,8 @@
                     {% for key, val in d.items() %}
                         <tr>
                             <th scope="row"> {{ key }} </th>
-                            <td> {{ val }} </td>
+                            <td> {{ val["title"] }} </td>
+                            <td> {{ val["content"] }} </td>
                         </tr>
                     {% endfor %}
                 {% endfor %}

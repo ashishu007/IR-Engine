@@ -20,14 +20,27 @@ def process_files(file_dir):
     unique_words = []
     file_content = {}
     for i, file in enumerate(os.listdir(file_dir)):
-        pattern = re.compile('[\W_0-9]+')
-        content = open(os.path.join(file_dir, file), 'r').read().lower()
-        content = pattern.sub(' ',content)
-        cont = content.split()
-        cont = [w for w in cont if w not in ["doc", "docno", "document"]]
-        content = " ".join(cont)
-        file_content[i] = content
+        pattern = re.compile('[\W_]+')
+        content = open(os.path.join(file_dir, file), 'r').read()
+        # content = open(os.path.join(file_dir, file), 'r').read().lower()
+        content_line = content.split("\n")
+        for ln in content_line:
+            if ln != '' and ln[0] != '<':
+                # cont = ln.lower()
+                cont = pattern.sub(' ', ln)
+                if ln[0] == '#':
+                    abstract = cont
+                else:
+                    title = cont
 
+        # cont = content.split()
+        # cont = [w for w in cont if w not in ["doc", "docno", "document"]]
+        # content = " ".join(cont)
+        file_content[i] = {"title": title, "content": abstract}
+
+        pattern = re.compile('[\W_0-9]+')
+        content = content.lower()
+        content = pattern.sub(' ',content)
         words = content.split()
         words = [word for word in words if word not in Stopwords]
         stemmer = PorterStemmer()
@@ -53,18 +66,18 @@ def get_ii(ftt, uw):
     return ii
 
 def get_inv_ind(load_saved=True):
-    if not os.path.exists("./app/engine/pkls/inverted_index.pkl"):
-        load_saved = False
-    if not load_saved:
-        print("loading files and creating index ...")
-        file_to_terms, unique_words, file_content = process_files("./app/engine/data")
-        print("files loaded, index created, now creating inverted index ...")
-        inv_ind = get_ii(file_to_terms, unique_words)
-        print("inverted ondex created ...")
-        pickle.dump(inv_ind, open("./app/engine/pkls/inverted_index.pkl", "wb"))
-        pickle.dump(file_content, open("./app/engine/pkls/file_content.pkl", "wb"))
-    else:
-        print("loading saved inverted_index")
-        inv_ind = pickle.load(open("./app/engine/pkls/inverted_index.pkl", "rb"))
-        file_content = pickle.load(open("./app/engine/pkls/file_content.pkl", "rb"))
+    # if not os.path.exists("./app/engine/pkls/inverted_index.pkl"):
+    #     load_saved = False
+    # if not load_saved:
+    print("loading files and creating index ...")
+    file_to_terms, unique_words, file_content = process_files("./app/engine/data")
+    print("files loaded, index created, now creating inverted index ...")
+    inv_ind = get_ii(file_to_terms, unique_words)
+    print("inverted ondex created ...")
+    pickle.dump(inv_ind, open("./app/engine/pkls/inverted_index.pkl", "wb"))
+    pickle.dump(file_content, open("./app/engine/pkls/file_content.pkl", "wb"))
+    # else:
+    #     print("loading saved inverted_index")
+    #     inv_ind = pickle.load(open("./app/engine/pkls/inverted_index.pkl", "rb"))
+    #     file_content = pickle.load(open("./app/engine/pkls/file_content.pkl", "rb"))
     return inv_ind, file_content

@@ -21,7 +21,7 @@
         .my-custom-scrollbar {
           position: relative;
           height: 400px;
-          /* width: auto; */
+          width: 800px;
           overflow: auto;
         }
         .table-wrapper-scroll-y {
@@ -58,6 +58,7 @@
               <thead>
                 <tr>
                   <th scope="col">DocumentID</th>
+                  <th scope="col">Title</th>
                   <th scope="col">Content</th>
                 </tr>
               </thead>
@@ -65,7 +66,8 @@
                 {% for docID, cont in docs.items() %}
                   <tr>
                     <th scope="row"> {{ docID }} </th>
-                    <td> {{ cont }} </td>
+                    <td> {{ cont["title"] }} </td>
+                    <td> {{ cont["content"] }} </td>
                   </tr>
                 {% endfor %}
               </tbody>
