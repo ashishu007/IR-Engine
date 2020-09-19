@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template, request, jsonify
-from app.engine.inv_ind import get_inv_ind
-from app.engine.retrieval import get_retrieved_docs
+from engine.inv_ind import get_inv_ind
+from engine.retrieval import get_retrieved_docs
 
 app = Flask(__name__)
 
