@@ -1,7 +1,7 @@
 # IR-Engine
 A simple search engine using Flask
 
-site deployed on pythonanywher: `ashishu007.pythonanywhere.com/`
+site deployed on pythonanywher: [`ashishu007.pythonanywhere.com/`](http://ashishu007.pythonanywhere.com/)
 
 ## References
 
