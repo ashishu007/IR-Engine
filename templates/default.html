@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <!-- <link rel="icon" type="image/png" href="/images/om2.png" sizes="32x32" /> -->
       <title>Boolean IR Search Engine</title>
-
       <style>
         h1 {text-align: center;}
         h2 {text-align: center;}
@@ -35,15 +33,14 @@
 
       <!--JS-->
       <!-- <script>
-        
-      </script> -->
-  </head>
 
+      </script> -->
+    </head>
   <body>
   
     <h1>RGU SoC Search-Engine</h1>
     <h2>Index Documents?</h2>
-    <form action = "http://localhost:5000/index" method = "POST">
+    <form class="form-inline" id="myform" action = "http://localhost:5000/index" method = "POST">
         <p>
             <label for="corpus">Which Corpus</label>
             <select id="corpus" name="corpus">
@@ -58,13 +55,8 @@
                 <option value="no">No</option>
             </select>
         </p>
-        <!-- <label for="corpus">Which Corpus</label>
-        <select id="corpus" name="corpus">
-            <option value="cat_dog">Cats and Dogs</option>
-            <option value="abstract">Abstracts</option>
-        </select> -->
-        <!-- <span>Enter Query Term <input type="text" name="query" required/></span> -->
         <span><input type = "submit" value = "submit" /></span>
     </form>
+
   </body>
 </html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <!-- <link rel="icon" type="image/png" href="/images/om2.png" sizes="32x32" /> -->
       <title>Boolean IR Search Engine</title>
 
       <style>
@@ -35,7 +34,14 @@
 
       <!--JS-->
       <!-- <script>
-        
+        function showDiv() {
+          document.getElementById('Login').style.display = "none";
+          document.getElementById('loadingGif').style.display = "block";
+          setTimeout(function() {
+            document.getElementById('loadingGif').style.display = "none";
+            document.getElementById('showme').style.display = "block";
+          },2000);          
+        }
       </script> -->
   </head>
 
@@ -44,7 +50,7 @@
     <h1>RGU SoC Search-Engine</h1>
     <h2>Search Something</h2>
     <form action = "http://localhost:5000/result" method = "POST">
-      <span>Enter Query Term <input type="text" name="query" required/></span>
+      <span><input type="text" placeholder="Enter Query Term" name="query" required/></span>
       <span><input type = "submit" value = "submit" /></span>
     </form>
     <p></p>
