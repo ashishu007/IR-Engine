@@ -71,7 +71,7 @@ def get_inv_ind(corpus="cat_dog", do_stem="yes", load_saved=True):
     #     load_saved = False
     # if not load_saved:
     print("loading files and creating index ...")
-    file_to_terms, unique_words, file_content = process_files("./engine/{}".format(corpus), do_stem)
+    file_to_terms, unique_words, file_content = process_files("./engine/data/{}".format(corpus), do_stem)
     print("files loaded, index created, now creating inverted index ...")
     inv_ind = get_ii(file_to_terms, unique_words)
     print("inverted ondex created ...")
