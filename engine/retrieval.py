@@ -13,7 +13,9 @@ def get_retrieved_docs(q):
     # print("connecting_words", connecting_words)
     # print("different_words", different_words)
 
-    # inv_ind, file_content = get_inv_ind()
+    # # inv_ind, file_content = get_inv_ind()
+    # inv_ind = pickle.load(open("./engine/pkls/inverted_index_{}_stem_{}.pkl".format(c, s), "rb"))
+    # file_content = pickle.load(open("./engine/pkls/file_content_{}_stem_{}.pkl".format(c, s), "rb"))
     inv_ind = pickle.load(open("./engine/pkls/inverted_index.pkl", "rb"))
     file_content = pickle.load(open("./engine/pkls/file_content.pkl", "rb"))
 

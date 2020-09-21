@@ -35,15 +35,19 @@
         </style>
 
         <!--JS-->
-        <!-- <script>
-        
-        </script> -->
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>        
+
     </head>
 
     <body>
     
         <h1>RGU SoC Search-Engine</h1>
         <h2>Retrieved Documents</h2>
+        <div><button class="center" onclick="goBack()">Go Back</button></div>
         <h3>Query: {{ query }}</h3>
         <div class="table-wrapper-scroll-y my-custom-scrollbar">
             <table class="table table-bordered table-striped mb-0 center">
@@ -65,7 +69,7 @@
                 {% endfor %}
             </table>
         </div>
-
+        
         <!-- {% for d in docs %}
             {% for k, v in d.items() %}
                 {{ k }}

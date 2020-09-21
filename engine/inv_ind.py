@@ -27,11 +27,13 @@ def process_files(file_dir, do_stem):
         for ln in content_line:
             if ln != '' and ln[0] != '<':
                 # cont = ln.lower()
-                cont = pattern.sub(' ', ln)
+                # cont = pattern.sub(' ', ln)
                 if ln[0] == '#':
-                    abstract = cont
+                    # abstract = cont
+                    abstract = ln[1:]
                 else:
-                    title = cont
+                    # title = cont
+                    title = ln
 
         # cont = content.split()
         # cont = [w for w in cont if w not in ["doc", "docno", "document"]]
@@ -39,7 +41,7 @@ def process_files(file_dir, do_stem):
         file_content[i] = {"title": title, "content": abstract}
 
         pattern = re.compile('[\W_0-9]+')
-        content = content.lower()
+        content = abstract.lower()
         content = pattern.sub(' ',content)
         words = content.split()
         words = [word for word in words if word not in Stopwords]
@@ -66,19 +68,22 @@ def get_ii(ftt, uw):
                 ii[word]["pos"].append({i: ctr[word]})
     return ii
 
-def get_inv_ind(corpus="cat_dog", do_stem="yes", load_saved=True):
-    # if not os.path.exists("./app/engine/pkls/inverted_index.pkl"):
-    #     load_saved = False
-    # if not load_saved:
+def get_inv_ind(corpus="cat_dog", do_stem="yes"):
+    # if os.path.exists("./app/engine/pkls/inverted_index_{}_stem_{}.pkl".format(corpus, do_stem)):
+    #     print("inverted index exists, loading saved one")
+    #     inv_ind = pickle.load(open("./engine/pkls/inverted_index_{}_stem_{}.pkl".format(corpus, do_stem), "rb"))
+    #     file_content = pickle.load(open("./engine/pkls/file_content_{}_stem_{}.pkl".format(corpus, do_stem), "rb"))
+
+    # else:
     print("loading files and creating index ...")
     file_to_terms, unique_words, file_content = process_files("./engine/data/{}".format(corpus), do_stem)
     print("files loaded, index created, now creating inverted index ...")
     inv_ind = get_ii(file_to_terms, unique_words)
     print("inverted ondex created ...")
+    print(corpus, do_stem)
+    # pickle.dump(inv_ind, open("./engine/pkls/inverted_index_{}_stem_{}.pkl".format(corpus, do_stem), "wb"))
+    # pickle.dump(file_content, open("./engine/pkls/file_content_{}_stem_{}.pkl".format(corpus, do_stem), "wb"))
     pickle.dump(inv_ind, open("./engine/pkls/inverted_index.pkl", "wb"))
     pickle.dump(file_content, open("./engine/pkls/file_content.pkl", "wb"))
-    # else:
-    #     print("loading saved inverted_index")
-    #     inv_ind = pickle.load(open("./app/engine/pkls/inverted_index.pkl", "rb"))
-    #     file_content = pickle.load(open("./app/engine/pkls/file_content.pkl", "rb"))
+
     return inv_ind, file_content
