@@ -122,27 +122,23 @@
 
     <table>
       <tr>
-        <th>
-          <h2>Different Stats</h2>
-          <div class="table-wrapper-scroll-y my-custom-scrollbar">
-            <table class="table table-bordered table-striped mb-0 center">
-              <thead>
-                <tr>
-                  <th scope="col">Stat</th>
-                  <th scope="col">Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for key, value in stats.items() %}
-                  <tr>
-                    <td> {{ key }} </th>
-                    <td> {{ value }} </th>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
-        </th>
+        <h2>Different Stats</h2>
+        <table class="table table-bordered table-striped mb-0 center">
+          <thead>
+            <tr>
+              <th scope="col">Stat</th>
+              <th scope="col">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for key, value in stats.items() %}
+              <tr>
+                <td> {{ key }} </th>
+                <td> {{ value }} </th>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </tr>
     </table>
 

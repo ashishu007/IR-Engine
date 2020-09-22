@@ -20,11 +20,13 @@ def process_files(file_dir, do_stem, do_stop):
     unique_words = []
     file_content = {}
     total_words = []
-    for i, file in enumerate(os.listdir(file_dir)):
+    for i, f in enumerate(os.listdir(file_dir)):
         pattern = re.compile('[\W_]+')
-        content = open(os.path.join(file_dir, file), 'r').read()
+        content = open(os.path.join(file_dir, f), 'r').read()
         # content = open(os.path.join(file_dir, file), 'r').read().lower()
         content_line = content.split("\n")
+        flag_title_found = False
+        abstract = ""
         for ln in content_line:
             if ln != '' and ln[0] != '<':
                 # cont = ln.lower()
@@ -32,15 +34,20 @@ def process_files(file_dir, do_stem, do_stop):
                 if ln[0] == '#':
                     # abstract = cont
                     abstract = ln[1:]
-                else:
+                elif flag_title_found == False:
                     # title = cont
                     title = ln
+                    flag_title_found = True
+                elif flag_title_found == True:
+                    abstract += ln
 
         # cont = content.split()
         # cont = [w for w in cont if w not in ["doc", "docno", "document"]]
         # content = " ".join(cont)
+        # print("(" + f + ")" + title)
+        # file_content[i] = {"title": "(" + f + ")" + title, "content": abstract}
         file_content[i] = {"title": title, "content": abstract}
-
+        
         pattern = re.compile('[\W_0-9]+')
         content = abstract.lower()
         content = pattern.sub(' ',content)
@@ -71,11 +78,16 @@ def get_ii(ftt, uw):
                 ii[word]["pos"].append({i: ctr[word]})
     return ii
 
-def get_stats(ii, tw, fc):
+def get_stats(ii, fc):
+
+    tw = 0
+    for k,v in fc.items():
+        v_words = v["content"].split()
+        tw += len(v_words)
 
     stats = {
         "Total Documents": len(fc),
-        "Total Index Terms from Docs": len(tw),
+        "Total Index Terms from Docs": tw,
         "Number of Posting Lists": len(ii)
     }
 
@@ -89,7 +101,8 @@ def get_stats(ii, tw, fc):
     return stats
 
 def get_inv_ind(corpus="cat_dog", do_stem="yes", do_stop="yes"):
-    if os.path.exists("./app/engine/pkls/inverted_index_{}_stem_{}_stop_removal_{}.pkl".format(corpus, do_stem, do_stop)):
+    print(os.path.exists("./engine/pkls/inverted_index_{}_stem_{}_stop_removal_{}.pkl".format(corpus, do_stem, do_stop)))
+    if os.path.exists("./engine/pkls/inverted_index_{}_stem_{}_stop_removal_{}.pkl".format(corpus, do_stem, do_stop)):
         print("inverted index exists, loading saved one")
         inv_ind = pickle.load(open("./engine/pkls/inverted_index_{}_stem_{}_stop_removal_{}.pkl".format(corpus, do_stem, do_stop), "rb"))
         file_content = pickle.load(open("./engine/pkls/file_content_{}_stem_{}_stop_removal_{}.pkl".format(corpus, do_stem, do_stop), "rb"))
@@ -106,7 +119,7 @@ def get_inv_ind(corpus="cat_dog", do_stem="yes", do_stop="yes"):
         # pickle.dump(file_content, open("./engine/pkls/file_content.pkl", "wb"))
 
     # calculate stats
-    stats = get_stats(inv_ind, total_words, file_content)
+    stats = get_stats(inv_ind, file_content)
     print("inverted ondex created ...")
     print(corpus, do_stem)
 
