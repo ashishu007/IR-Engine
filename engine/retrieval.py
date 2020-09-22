@@ -1,7 +1,7 @@
 import pickle
 from engine.inv_ind import get_inv_ind
 
-def get_retrieved_docs(q):
+def get_retrieved_docs(q, c, s, sw):
     query = q.split()
     connecting_words = []
     different_words = []
@@ -14,10 +14,10 @@ def get_retrieved_docs(q):
     # print("different_words", different_words)
 
     # # inv_ind, file_content = get_inv_ind()
-    # inv_ind = pickle.load(open("./engine/pkls/inverted_index_{}_stem_{}.pkl".format(c, s), "rb"))
-    # file_content = pickle.load(open("./engine/pkls/file_content_{}_stem_{}.pkl".format(c, s), "rb"))
-    inv_ind = pickle.load(open("./engine/pkls/inverted_index.pkl", "rb"))
-    file_content = pickle.load(open("./engine/pkls/file_content.pkl", "rb"))
+    inv_ind = pickle.load(open("./engine/pkls/inverted_index_{}_stem_{}_stop_removal_{}.pkl".format(c, s, sw), "rb"))
+    file_content = pickle.load(open("./engine/pkls/file_content_{}_stem_{}_stop_removal_{}.pkl".format(c, s, sw), "rb"))
+    # inv_ind = pickle.load(open("./engine/pkls/inverted_index.pkl", "rb"))
+    # file_content = pickle.load(open("./engine/pkls/file_content.pkl", "rb"))
 
     total_files = len(list(file_content.keys()))
 
