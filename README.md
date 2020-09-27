@@ -1,5 +1,5 @@
 # IR-Engine
-A simple search engine in Flask
+A simple Boolean Search Engine using Python and Flask
 
 Site deployed on `pythonanywhere`: [ashishu007.pythonanywhere.com](http://ashishu007.pythonanywhere.com/)
 
