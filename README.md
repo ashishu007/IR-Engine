@@ -23,11 +23,11 @@ To stop the running image, follow these steps:
 
     `docker ps`
 
-2. Copy the unique `IMAGE ID` (let's say, _imageid_) for the image `ashishu007/rgu-soc-boolean-ir`
+2. Copy the unique `CONTAINER ID` (let's say, _containerid_) for the image `ashishu007/rgu-soc-boolean-ir`
 
 3. Run:
 
-    `docker stop imageid`
+    `docker stop containerid`
 
 It assumes, you've docker installed.
 
