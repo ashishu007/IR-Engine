@@ -21,21 +21,15 @@ def process_files(file_dir, do_stem, do_stop):
     file_content = {}
     total_words = []
     for i, f in enumerate(os.listdir(file_dir)):
-        pattern = re.compile('[\W_]+')
         content = open(os.path.join(file_dir, f), 'r').read()
-        # content = open(os.path.join(file_dir, file), 'r').read().lower()
         content_line = content.split("\n")
         flag_title_found = False
         abstract = ""
         for ln in content_line:
             if ln != '' and ln[0] != '<':
-                # cont = ln.lower()
-                # cont = pattern.sub(' ', ln)
                 if ln[0] == '#':
-                    # abstract = cont
                     abstract = ln[1:]
                 elif flag_title_found == False:
-                    # title = cont
                     title = ln
                     flag_title_found = True
                 elif flag_title_found == True:
@@ -48,7 +42,7 @@ def process_files(file_dir, do_stem, do_stop):
         # file_content[i] = {"title": "(" + f + ")" + title, "content": abstract}
         file_content[i] = {"title": title, "content": abstract}
         
-        pattern = re.compile('[\W_0-9]+')
+        pattern = re.compile('[\W_]+')
         content = abstract.lower()
         content = pattern.sub(' ',content)
         words = content.split()
@@ -80,10 +74,13 @@ def get_ii(ftt, uw):
 
 def get_stats(ii, fc):
 
-    tw = 0
+    all_words = []
     for k,v in fc.items():
-        v_words = v["content"].split()
-        tw += len(v_words)
+        c_words = v["content"].lower().split()
+        t_words = v["title"].lower().split()
+        a_w = c_words + t_words
+        all_words += a_w
+    tw = len(set(all_words))
 
     stats = {
         "Total Documents": len(fc),

@@ -51,26 +51,33 @@
         <div><button class="center" onclick="goBack()">Go Back</button></div>
         <h3>Query: {{ query }}</h3>
         <h4>Total Documents Retrieved: {{ num_docs }}</h4>
-        <div class="table-wrapper-scroll-y my-custom-scrollbar">
-            <table class="table table-bordered table-striped mb-0 center">
-                <thead>
-                    <tr>
-                        <th scope="col">DocumentID</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Content</th>
-                    </tr>
-                </thead>
-                {% for d in docs %}
-                    {% for key, val in d.items() %}
+        
+        {% if num_docs == 0 %}
+            <h3>No documents found</h3>
+        {% endif %}
+
+        {% if num_docs > 0 %}
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                <table class="table table-bordered table-striped mb-0 center">
+                    <thead>
                         <tr>
-                            <th scope="row"> {{ key }} </th>
-                            <td> {{ val["title"] }} </td>
-                            <td> {{ val["content"] }} </td>
+                            <th scope="col">DocumentID</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Content</th>
                         </tr>
+                    </thead>
+                    {% for d in docs %}
+                        {% for key, val in d.items() %}
+                            <tr>
+                                <th scope="row"> {{ key }} </th>
+                                <td> {{ val["title"] }} </td>
+                                <td> {{ val["content"] }} </td>
+                            </tr>
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
-            </table>
-        </div>
+                </table>
+            </div>
+        {% endif %}
 
         <!-- {% for d in docs %}
             {% for k, v in d.items() %}
