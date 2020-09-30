@@ -2,12 +2,13 @@
 <html>
     <head>
         <!-- <link rel="icon" type="image/png" href="/images/om2.png" sizes="32x32" /> -->
-        <title>A Simple IR Search Engine</title>
+        <title>Boolean IR Search Engine</title>
 
         <style>
         h1 {text-align: center;}
         h2 {text-align: center;}
         h3 {text-align: center;}
+        h4 {text-align: center;}
         form {text-align: center;}
         p {text-align: center;}
         div {text-align: center;}
@@ -21,7 +22,7 @@
         }
         .my-custom-scrollbar {
             position: relative;
-            height: 700px;
+            height: 670px;
             /* width: 400px; */
             overflow: auto;
         }
@@ -35,36 +36,47 @@
         </style>
 
         <!--JS-->
-        <!-- <script>
-        
-        </script> -->
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
     </head>
 
     <body>
-    
-        <h1>RGU SoC IR Search-Engine</h1>
+
+        <h1>RGU SoC Search-Engine</h1>
         <h2>Retrieved Documents</h2>
+        <div><button class="center" onclick="goBack()">Go Back</button></div>
         <h3>Query: {{ query }}</h3>
-        <div class="table-wrapper-scroll-y my-custom-scrollbar">
-            <table class="table table-bordered table-striped mb-0 center">
-                <thead>
-                    <tr>
-                        <th scope="col">DocumentID</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Content</th>
-                    </tr>
-                </thead>
-                {% for d in docs %}
-                    {% for key, val in d.items() %}
+        <h4>Total Documents Retrieved: {{ num_docs }}</h4>
+
+        {% if num_docs == 0 %}
+            <h3>No documents found</h3>
+        {% endif %}
+
+        {% if num_docs > 0 %}
+            <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                <table class="table table-bordered table-striped mb-0 center">
+                    <thead>
                         <tr>
-                            <th scope="row"> {{ key }} </th>
-                            <td> {{ val["title"] }} </td>
-                            <td> {{ val["content"] }} </td>
+                            <th scope="col">DocumentID</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Content</th>
                         </tr>
+                    </thead>
+                    {% for d in docs %}
+                        {% for key, val in d.items() %}
+                            <tr>
+                                <th scope="row"> {{ key }} </th>
+                                <td> {{ val["title"] }} </td>
+                                <td> {{ val["content"] }} </td>
+                            </tr>
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
-            </table>
-        </div>
+                </table>
+            </div>
+        {% endif %}
 
         <!-- {% for d in docs %}
             {% for k, v in d.items() %}
