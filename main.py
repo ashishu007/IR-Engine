@@ -33,5 +33,7 @@ def send_result():
 
     return render_template("display.html", docs=docs, query=form_r["query"][0], num_docs=num_docs)
 
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    # app.run(host='0.0.0.0')
+    app.run()

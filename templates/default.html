@@ -38,9 +38,10 @@
     </head>
   <body>
   
-    <h1>RGU SoC Search-Engine</h1>
+    <h1>RGU SoC Boolean Search-Engine</h1>
     <h2>Index Documents?</h2>
-    <form class="form-inline" id="myform" action = "http://localhost:5000/index" method = "POST">
+    <!-- <form class="form-inline" id="myform" action = "http://localhost:5000/index" method = "POST"> -->
+    <form class="form-inline" id="myform" action = "{{ url_for('index_files') }}" method = "POST">
         <p>
             <label for="corpus">Which Corpus</label>
             <select id="corpus" name="corpus">

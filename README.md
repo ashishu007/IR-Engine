@@ -4,6 +4,8 @@ A simple Boolean Search Engine using Python and Flask
 ## Pythonanywhere
 Site deployed on `pythonanywhere`: [ashishu007.pythonanywhere.com](http://ashishu007.pythonanywhere.com/)
 
+Site deployed on `heroku`: [https://rgu-soc-bool-ir.herokuapp.com/](https://rgu-soc-bool-ir.herokuapp.com/)
+
 ## Docker
 To run the application using `docker`, use the following steps:
 
@@ -30,6 +32,34 @@ To stop the running image, follow these steps:
     `docker stop containerid`
 
 It assumes, you've docker installed.
+
+## Heroku
+
+Assuming you have `docker` installed and an app created on `heroku`.
+
+0. Suppose the app created on heroku is: `rgu-soc-bool-ir`
+
+1. Clone the repo:
+
+    `git clone https://github.com/ashishu007/IR-Engine.git`
+
+2. Build the docker-container:
+
+    `docker build -t ir-eng:latest .`
+
+3. Tag the docker-container:
+
+    `docker tag ir-eng registry.heroku.com/rgu-soc-bool-ir/web`
+
+4. Push the tagged container to the heroku-registry:
+
+    `docker push registry.heroku.com/rgu-soc-bool-ir/web`
+
+5. Release the container on heroku:
+
+    `heroku container:release -a rgu-soc-bool-ir web`
+
+6. Goto the browser, and type: [rgu-soc-bool-ir.herokuapp.com](https://rgu-soc-bool-ir.herokuapp.com/)
 
 ## References
 
