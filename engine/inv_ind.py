@@ -7,9 +7,6 @@ import os, collections, re, pickle
 # Stopwords = set(stopwords.words('english'))
 # sws = list(Stopwords)
 sws = ["and", "the", "a", "of", "on", "in", "to", "with"]
-sws.append("doc")
-sws.append("docno")
-sws.append("document")
 Stopwords = set(sws)
 
 def process_files(file_dir, do_stem, do_stop):
