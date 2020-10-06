@@ -51,6 +51,9 @@ Assuming you have `docker` installed and an app created on `heroku`.
 
     `docker tag ir-eng registry.heroku.com/rgu-soc-bool-ir/web`
 
+    * If getting `authentication required` message, run this:
+        `heroku container:login`
+
 4. Push the tagged container to the heroku-registry:
 
     `docker push registry.heroku.com/rgu-soc-bool-ir/web`

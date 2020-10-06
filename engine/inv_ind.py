@@ -18,7 +18,7 @@ def process_files(file_dir, do_stem, do_stop):
     file_content = {}
     total_words = []
     for i, f in enumerate(os.listdir(file_dir)):
-        content = open(os.path.join(file_dir, f), 'r').read()
+        content = open(os.path.join(file_dir, f), 'r', encoding="ISO-8859-1").read()
         content_line = content.split("\n")
         flag_title_found = False
         abstract = ""
